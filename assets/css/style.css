@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
 
 /*Sets the root element font size*/
 
@@ -20,7 +20,18 @@ body, html {
     background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
 }
 
-.test {
-    color: white;
-    font-family: "Lato", sans-serif;
+/*Navigation bar*/
+
+.menu-nav-bar .menu-text {
+    font-family: 'Alegraya', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+    height: 3.5rem;  
+    color: #dedede;  
+}
+
+.menu-icon {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #dedede;
 }
