@@ -3,35 +3,49 @@
 /*Sets the root element font size*/
 
 html {
-    font-size: 20px; 
+  font-size: 20px;
 }
 
 /* Main background image, code found on W3 Schools*/
 
-body, html {
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 
 .background {
-    background-image: url("../images/durham_cathedral_dark_2.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
+  background-image: url("../images/durham_cathedral_dark_2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
 }
 
 /*Navigation bar*/
 
 .menu-nav-bar .menu-text {
-    font-family: 'Alegraya', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 300;
-    height: 3.5rem;  
-    color: #dedede;  
+  font-family: "Alegraya", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  height: 3.5rem;
+  color: #dedede;
 }
 
 .menu-icon {
-    font-size: 2rem;
-    font-weight: 300;
-    color: #dedede;
+  font-size: 2rem;
+  color: #dedede;
+}
+
+/*Main page */
+
+.main-content {
+    position: relative;
+    left: 80px;
+    top: 200px;
+}
+
+.page-header {
+  font-family: "Alegraya", sans-serif;
+  color: white;
+  font-size: 3rem;
 }
