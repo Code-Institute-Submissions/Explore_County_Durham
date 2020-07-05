@@ -46,12 +46,20 @@ html {
   color: #d1d4c9;
 }
 
-/*Main page */
+/* Styling for all h1 elements*/
 
-.page-header {
+h1 {
   font-family: "Alegraya", sans-serif;
   color: #d1d4c9;
   font-size: 3rem;
+}
+
+/*Styling for all h2 elements*/
+
+h2 {
+  font-family: "Alegraya", sans-serif;
+  color: #d1d4c9;
+  font-size: 2.4rem;
 }
 
 /*Learn More Button on main page*/
@@ -74,7 +82,11 @@ html {
 /*Styling for information */
 
 .site-info {
-    width: 80px;
-    height: 80px;
-    color: blue;
+    display: none;
+}
+
+.info-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #d1d4c9;
 }
