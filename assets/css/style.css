@@ -19,7 +19,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
-}
+ }
 
 /*Navigation bar*/
 
@@ -75,6 +75,7 @@ h3 {
   border: 2px solid #706c61;
   border-radius: 1rem;
   background-color: #d1d4c9;
+  opacity: 0.9;
 }
 
 .button-text {
@@ -94,4 +95,25 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     color: #d1d4c9;
+}
+
+.attractions-button {
+  width: 175px;
+  height: 50px;
+  margin-top: 20px;
+  border: 2px solid #706c61;
+  border-radius: 1rem;
+  background-color: #d1d4c9;
+  opacity: 0.9;
+}
+
+/*Footer*/
+
+.footer {
+    height: 2rem;
+    width: 100%;
+}
+
+.footer-content {
+    background-color: black;
 }
