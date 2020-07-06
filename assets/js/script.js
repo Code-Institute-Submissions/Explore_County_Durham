@@ -3,6 +3,6 @@ $(document).ready(function() {
       $('.page-header').toggle('slow');
       $('.learn-more-button').toggle('slow');
     $('.site-info').fadeToggle('slow');
+    $('.menu-nav-bar').toggle('slow');
     });
-    
 });

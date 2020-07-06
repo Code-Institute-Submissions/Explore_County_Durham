@@ -167,3 +167,14 @@ h3 {
     color: #d1d4c9;
     padding-right: 10px;
 }
+
+@media(max-width: 420px) {
+    .footer-social-links {
+        font-size: 1rem;
+        display: inline;
+        padding: 0;
+     }
+    .footer-link a {
+        display: none;
+    }
+}
