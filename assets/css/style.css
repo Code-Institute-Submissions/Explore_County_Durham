@@ -19,7 +19,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
- }
+}
 
 /*Navigation bar*/
 
@@ -66,6 +66,18 @@ h3 {
   font-size: 1.8rem;
 }
 
+@media(max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem
+    } 
+}
+
 /*Learn More Button on main page*/
 
 .learn-more-button {
@@ -84,6 +96,18 @@ h3 {
   color: #2d3a4c;
 }
 
+@media(max-width: 768px) {
+    .learn-more-button {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #706c61;
+        font-size: 1rem;
+    }
+    .button-text {
+        font-size: 1rem;
+    }
+}
+
 /*Styling for information section */
 
 .site-info {
@@ -97,6 +121,12 @@ h3 {
     color: #d1d4c9;
 }
 
+@media(max-width: 768px) {
+    .info-text {
+        font-size: 0.8rem;
+    }
+}
+
 .attractions-button {
   width: 175px;
   height: 50px;
@@ -105,6 +135,14 @@ h3 {
   border-radius: 1rem;
   background-color: #d1d4c9;
   opacity: 0.9;
+}
+
+@media(max-width: 768px) {
+    .attractions-button {
+        width: 130px;
+        height: 35px;
+        border: 1px solid #706c61;
+    }
 }
 
 /*Footer*/
