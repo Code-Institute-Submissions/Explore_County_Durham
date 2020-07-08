@@ -6,7 +6,8 @@ html {
   font-size: 20px;
 }
 
-/* Main background image, code found on W3 Schools*/
+/* Main background image, code found on W3 Schools
+https://www.w3schools.com/css/css3_backgrounds.asp*/
 
 body,
 html {
@@ -137,14 +138,20 @@ h3 {
     }
 }
 
-.attractions-button {
-  width: 175px;
-  height: 50px;
-  margin-top: 20px;
+/*The below code to change the appearance of the a element was taken from stack overflow
+https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button*/
+
+a.attractions-button {
+ -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
   border: 2px solid #706c61;
   border-radius: 1rem;
   background-color: #d1d4c9;
   opacity: 0.9;
+  height: 50px;
+  width: 150px;
+  padding: 5px;
 }
 
 .attractions-button:hover {
