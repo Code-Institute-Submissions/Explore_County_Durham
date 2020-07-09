@@ -28,7 +28,7 @@ html {
   font-family: "Alegraya", sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
-  height: 3.5rem;
+  height: 2.8rem;
   color: #d1d4c9;
 }
 
@@ -45,6 +45,10 @@ html {
 .menu-icon {
   font-size: 2rem;
   color: #d1d4c9;
+}
+
+.menu-bar-attractions {
+  background-color: black;
 }
 
 /* Styling for all heading elements*/
@@ -67,16 +71,16 @@ h3 {
   font-size: 1.8rem;
 }
 
-@media(max-width: 768px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
-    h3 {
-        font-size: 1.2rem
-    } 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
 }
 
 /*Learn More Button on main page*/
@@ -92,8 +96,8 @@ h3 {
 }
 
 .learn-more-button:hover {
-    background-color: #706c61;
-    border: 2px solid #d1d4c9;
+  background-color: #706c61;
+  border: 2px solid #d1d4c9;
 }
 
 .button-text {
@@ -103,46 +107,45 @@ h3 {
 }
 
 .button-text:hover {
-    color: #d1d4c9; 
+  color: #d1d4c9;
 }
 
-@media(max-width: 768px) {
-    .learn-more-button {
-        width: 150px;
-        height: 40px;
-        border: 1px solid #706c61;
-        font-size: 1rem;
-    }
-    .button-text {
-        font-size: 1rem;
-    }
+@media (max-width: 768px) {
+  .learn-more-button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #706c61;
+    font-size: 1rem;
+  }
+  .button-text {
+    font-size: 1rem;
+  }
 }
-
 
 /*Styling for information section */
 
 .site-info {
-    display: none;
-    height: 550px;
+  display: none;
+  height: 550px;
 }
 
 .info-text {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1rem;
-    color: #d1d4c9;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #d1d4c9;
 }
 
-@media(max-width: 768px) {
-    .info-text {
-        font-size: 0.8rem;
-    }
+@media (max-width: 768px) {
+  .info-text {
+    font-size: 0.8rem;
+  }
 }
 
 /*The below code to change the appearance of the a element was taken from stack overflow
 https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button*/
 
 a.attractions-button {
- -webkit-appearance: button;
+  -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
   border: 2px solid #706c61;
@@ -155,48 +158,59 @@ a.attractions-button {
 }
 
 .attractions-button:hover {
-    background-color: #706c61;
-    border: 2px solid #d1d4c9;
+  background-color: #706c61;
+  border: 2px solid #d1d4c9;
 }
 
-@media(max-width: 768px) {
-    .attractions-button {
-        width: 130px;
-        height: 35px;
-        border: 1px solid #706c61;
-    }
+@media (max-width: 768px) {
+  .attractions-button {
+    width: 130px;
+    height: 35px;
+    border: 1px solid #706c61;
+  }
 }
 
 /*Footer*/
 
 .footer {
-    height: 10%;
-    background-color: black; /*This code places footer at bottom of background image*/
-    position: fixed; 
-    bottom: 0;
+  height: 10%;
+  background-color: black; /*This code places footer at bottom of background image*/
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-social-links {
-    color: #d1d4c9;
-    font-size: 2rem;
-    letter-spacing: 1rem;
-    padding-left: 10px;
+  color: #d1d4c9;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  padding-left: 10px;
 }
 
 .footer-link a {
-    font-family: 'Alegraya', sans-serif;
-    font-size: 1.2rem;
-    color: #d1d4c9;
-    padding-right: 10px;
+  font-family: "Alegraya", sans-serif;
+  font-size: 1.2rem;
+  color: #d1d4c9;
+  padding-right: 10px;
 }
 
-@media(max-width: 420px) {
-    .footer-social-links {
-        font-size: 1rem;
-        display: inline;
-        padding: 0;
-     }
-    .footer-link a {
-        display: none;
-    }
+@media (max-width: 420px) {
+  .footer-social-links {
+    font-size: 1rem;
+    display: inline;
+    padding: 0;
+  }
+  .footer-link a {
+    display: none;
+  }
+}
+
+/*Attractions Page*/
+
+.attractions-image {
+  background: url("../images/penshaw_monument.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 500px;
+  
 }
