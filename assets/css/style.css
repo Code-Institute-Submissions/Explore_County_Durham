@@ -28,14 +28,13 @@ html {
   font-family: "Alegraya", sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
-  height: 2.8rem;
+  height: 3rem;
   color: #d1d4c9;
 }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
-  line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -206,6 +205,17 @@ a.attractions-button {
 
 /*Attractions Page*/
 
+.attractions-title {
+    height: 125px;
+
+}
+
+.attractions-heading {
+    padding: 10px;
+}
+
+
 div#map {
     height: 725px;
 }
+
