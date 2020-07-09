@@ -206,11 +206,6 @@ a.attractions-button {
 
 /*Attractions Page*/
 
-.attractions-image {
-  background: url("../images/penshaw_monument.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  height: 500px;
-  
+div#map {
+    height: 725px;
 }
