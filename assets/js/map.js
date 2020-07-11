@@ -1,4 +1,4 @@
-//Code taken from Stac Overflow, https://stackoverflow.com/questions/30012913/google-map-api-v3-add-multiple-infowindows //
+//Code taken from Stack Overflow, https://stackoverflow.com/questions/30012913/google-map-api-v3-add-multiple-infowindows //
 
   var locations = [
     { lat: 54.8849314, lng: -1.6673812, name: "Beamish Museum" },
@@ -6,7 +6,7 @@
     { lat: 54.7732329, lng: -1.5785808, name: "Durham Cathedral" },
     { lat: 54.6506813, lng: -2.1889541, name: "High Force Waterfall" },
     { lat: 54.8014524, lng: -1.6782121, name: "Diggerland Durham" },
-    { lat: 54.5915822, lng: -1.8041618, name: "Raby Castle" },
+    { lat: 54.5915822, lng: -1.8041618, name: "Raby Castle" }
   ];
   
   function initMap() {
@@ -22,8 +22,8 @@
       map : map
     });
     google.maps.event.addListener(marker, 'click', function(){
-        infowindow.close(); // Close previously opened infowindow
-        infowindow.setContent(`<div id="infowindow">${loc.name}</div>`);
+        infowindow.close(); 
+            infowindow.setContent(`<div id="infowindow">${loc.name}</div>`);
         infowindow.open(map, marker);
     });
   }
