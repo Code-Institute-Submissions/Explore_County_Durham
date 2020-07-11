@@ -196,6 +196,15 @@ a.attractions-button {
   font-size: 2rem;
   letter-spacing: 1rem;
   padding-left: 10px;
+  padding-top: 15px;
+}
+
+.attractions-links {
+   color: #ffce5a;
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  padding-left: 10px;
+  padding-top: 25px;
 }
 
 .footer-link a {
@@ -203,11 +212,11 @@ a.attractions-button {
   font-size: 1.2rem;
   color: #d1d4c9;
   padding-right: 10px;
-}
+  }
 
 @media (max-width: 420px) {
   .footer-social-links {
-    font-size: 1rem;
+    font-size: 0.75rem;
     display: inline;
     padding: 0;
   }
@@ -231,5 +240,11 @@ a.attractions-button {
 
 div#map {
     height: 725px;
+}
+
+.footer-attractions {
+  height: 10%;
+  background-color: #061D87; 
+  bottom: 0;
 }
 
