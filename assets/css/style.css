@@ -46,8 +46,21 @@ html {
   color: #d1d4c9;
 }
 
+.menu-icon-attractions {
+    font-size: 2rem;
+    color: #ffce5a
+}
+
 .menu-bar-attractions {
-  background-color: #1b48b2;
+  background-color: #061D87;
+}
+
+.menu-text-attractions {
+  font-family: "Alegraya", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  height: 3rem;
+  color: #ffce5a;
 }
 
 /* Styling for all heading elements*/
@@ -212,7 +225,7 @@ a.attractions-button {
 
 .attractions-heading {
     padding: 10px;
-    color: #1b48b2;
+    color: #061D87;
 }
 
 
