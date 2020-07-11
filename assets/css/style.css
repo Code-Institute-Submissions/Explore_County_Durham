@@ -207,23 +207,13 @@ a.attractions-button {
   padding-top: 25px;
 }
 
-.footer-link a {
-  font-family: "Alegraya", sans-serif;
-  font-size: 1.2rem;
-  color: #d1d4c9;
-  padding-right: 10px;
-  }
-
 @media (max-width: 420px) {
   .footer-social-links {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     display: inline;
-    padding: 0;
-  }
-  .footer-link a {
-    display: none;
-  }
+    }
 }
+
 
 /*Attractions Page*/
 
