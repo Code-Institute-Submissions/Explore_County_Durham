@@ -1,3 +1,4 @@
+//Code taken from Google Maps lesson in Code Institute Interactive Front End Module//
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 7,

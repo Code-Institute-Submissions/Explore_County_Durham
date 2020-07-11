@@ -47,7 +47,7 @@ html {
 }
 
 .menu-bar-attractions {
-  background-color: black;
+  background-color: #1b48b2;
 }
 
 /* Styling for all heading elements*/
@@ -207,11 +207,12 @@ a.attractions-button {
 
 .attractions-title {
     height: 125px;
-
+    background-color: #ffce5a;
 }
 
 .attractions-heading {
     padding: 10px;
+    color: #1b48b2;
 }
 
 
