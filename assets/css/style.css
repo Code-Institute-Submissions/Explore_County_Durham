@@ -224,7 +224,7 @@ a.attractions-button {
 
 .attractions-heading {
     padding: 10px;
-    color: #061D87;
+    color: #061d87);
 }
 
 
@@ -238,3 +238,9 @@ div#map {
   bottom: 0;
 }
 
+/*Google Maps Info window*/
+
+.info-window-title {
+    font-family: "Alegraya", sans-serif;
+    color: black;
+}
