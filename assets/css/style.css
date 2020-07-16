@@ -3,7 +3,7 @@
 /*Sets the root element font size*/
 
 html {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 /* Main background image, code found on W3 Schools
@@ -11,219 +11,218 @@ https://www.w3schools.com/css/css3_backgrounds.asp*/
 
 body,
 html {
-  height: 100%;
+    height: 100%;
 }
 
 .background {
-  background-image: url("../images/durham_cathedral_dark_2.jpg");
-  height: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
+    background-image: url("../images/durham_cathedral_dark_2.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
 }
 
 /*Navigation bar*/
 
 .menu-nav-bar .menu-text {
-  font-family: "Alegraya", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  height: 3rem;
-  color: #d1d4c9;
+    font-family: "Alegraya", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    color: #d1d4c9;
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  color: #d1d4c9;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #d1d4c9;
 }
 
 .menu-icon {
-  font-size: 2rem;
-  color: #d1d4c9;
+    font-size: 2rem;
+    color: #d1d4c9;
 }
 
 .menu-icon-attractions {
     font-size: 2rem;
-    color: #F2B705;
+    color: #f2b705;
 }
 
 .menu-bar-attractions {
-  background-color: #023373;
+    background-color: #023373;
 }
 
 .menu-text-attractions {
-  font-family: "Alegraya", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  height: 3rem;
-  color: #F2B705;
+    font-family: "Alegraya", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    color: #f2b705;
 }
 
 .navigation-bars {
-    color: #F2B705;
+    color: #f2b705;
 }
 
 /* Styling for all heading elements*/
 
 h1 {
-  font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
-  font-size: 3rem;
+    font-family: "Alegraya", sans-serif;
+    color: #d1d4c9;
+    font-size: 3rem;
 }
 
 h2 {
-  font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
-  font-size: 2.4rem;
+    font-family: "Alegraya", sans-serif;
+    color: #d1d4c9;
+    font-size: 2.4rem;
 }
 
 h3 {
-  font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
-  font-size: 1.8rem;
+    font-family: "Alegraya", sans-serif;
+    color: #d1d4c9;
+    font-size: 1.8rem;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
 }
 
 /*Learn More Button on main page*/
 
 .learn-more-button {
-  width: 200px;
-  height: 50px;
-  margin-top: 20px;
-  border: 2px solid #706c61;
-  border-radius: 1rem;
-  background-color: #d1d4c9;
-  opacity: 0.9;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border: 2px solid #706c61;
+    border-radius: 1rem;
+    background-color: #d1d4c9;
+    opacity: 0.9;
 }
 
 .learn-more-button:hover {
-  background-color: #706c61;
-  border: 2px solid #d1d4c9;
+    background-color: #706c61;
+    border: 2px solid #d1d4c9;
 }
 
 .button-text {
-  font-family: "Lato", sans-serif;
-  font-size: 1.2rem;
-  color: #2d3a4c;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    color: #2d3a4c;
 }
 
 .button-text:hover {
-  color: #d1d4c9;
+    color: #d1d4c9;
 }
 
 @media (max-width: 768px) {
-  .learn-more-button {
-    width: 150px;
-    height: 40px;
-    border: 1px solid #706c61;
-    font-size: 1rem;
-  }
-  .button-text {
-    font-size: 1rem;
-  }
+    .learn-more-button {
+        width: 150px;
+        height: 40px;
+        border: 1px solid #706c61;
+        font-size: 1rem;
+    }
+    .button-text {
+        font-size: 1rem;
+    }
 }
 
 /*Styling for information section */
 
 .site-info {
-  display: none;
-  height: 550px;
+    display: none;
+    height: 550px;
 }
 
 .info-text {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  color: #d1d4c9;
+    font-family: "Lato", sans-serif;
+    font-size: 1.1rem;
+    color: #d1d4c9;
 }
 
 @media (max-width: 768px) {
-  .info-text {
-    font-size: 0.8rem;
-  }
+    .info-text {
+        font-size: 0.8rem;
+    }
 }
 
 /*The below code to change the appearance of the a element was taken from stack overflow
 https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button*/
 
 a.attractions-button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  border: 2px solid #706c61;
-  border-radius: 1rem;
-  background-color: #d1d4c9;
-  opacity: 0.9;
-  height: 50px;
-  width: 150px;
-  padding: 5px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    border: 2px solid #706c61;
+    border-radius: 1rem;
+    background-color: #d1d4c9;
+    opacity: 0.9;
+    height: 50px;
+    width: 150px;
+    padding: 5px;
 }
 
 .attractions-button:hover {
-  background-color: #706c61;
-  border: 2px solid #d1d4c9;
+    background-color: #706c61;
+    border: 2px solid #d1d4c9;
 }
 
 @media (max-width: 768px) {
-  .attractions-button {
-    width: 130px;
-    height: 35px;
-    border: 1px solid #706c61;
-  }
+    .attractions-button {
+        width: 130px;
+        height: 35px;
+        border: 1px solid #706c61;
+    }
 }
 
 /*Footer*/
 
 .footer {
-  height: 10%;
-  background-color: black; /*This code places footer at bottom of background image*/
-  position: fixed;
-  bottom: 0;
+    height: 10%;
+    background-color: black; /*This code places footer at bottom of background image*/
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-social-links {
-  color: #d1d4c9;
-  font-size: 2rem;
-  letter-spacing: 1rem;
-  padding-left: 10px;
-  padding-top: 15px;
+    color: #d1d4c9;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
 .attractions-links {
-   color: #F2B705;
-  font-size: 1.8rem;
-  letter-spacing: 1rem;
-  padding-left: 10px;
-  padding-top: 25px;
+    color: #f2b705;
+    font-size: 1.8rem;
+    letter-spacing: 1rem;
+    padding-left: 10px;
+    padding-top: 25px;
 }
 
 @media (max-width: 420px) {
-  .footer-social-links {
-    font-size: 1.2rem;
-    display: inline;
+    .footer-social-links {
+        font-size: 1.2rem;
+        display: inline;
     }
 }
-
 
 /*Attractions Page*/
 
 .attractions-title {
     height: 125px;
-    background-color: #F2B705;
+    background-color: #f2b705;
 }
 
 .attractions-heading {
@@ -232,20 +231,19 @@ a.attractions-button {
 }
 
 .attractions-text {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 1.1rem;
     color: #023373;
 }
-
 
 div#map {
     height: 725px;
 }
 
 .footer-attractions {
-  height: 10%;
-  background-color: #023373; 
-  bottom: 0;
+    height: 10%;
+    background-color: #023373;
+    bottom: 0;
 }
 
 /*Google Maps Info window*/
@@ -258,9 +256,9 @@ div#map {
 /*Contact Page*/
 
 .contact-background {
-  background-image: url("../images/penshaw_monument.jpg");
-  height: 90%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../images/penshaw_monument.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
