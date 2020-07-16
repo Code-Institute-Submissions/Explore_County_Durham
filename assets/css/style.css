@@ -254,3 +254,13 @@ div#map {
     font-family: "Alegraya", sans-serif;
     color: black;
 }
+
+/*Contact Page*/
+
+.contact-background {
+  background-image: url("../images/penshaw_monument.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
