@@ -48,11 +48,11 @@ html {
 
 .menu-icon-attractions {
     font-size: 2rem;
-    color: #ffce5a
+    color: #F2B705;
 }
 
 .menu-bar-attractions {
-  background-color: #061D87;
+  background-color: #023373;
 }
 
 .menu-text-attractions {
@@ -60,7 +60,7 @@ html {
   font-size: 1.4rem;
   font-weight: 300;
   height: 3rem;
-  color: #ffce5a;
+  color: #F2B705;
 }
 
 /* Styling for all heading elements*/
@@ -200,7 +200,7 @@ a.attractions-button {
 }
 
 .attractions-links {
-   color: #ffce5a;
+   color: #F2B705;
   font-size: 1.8rem;
   letter-spacing: 1rem;
   padding-left: 10px;
@@ -219,12 +219,18 @@ a.attractions-button {
 
 .attractions-title {
     height: 125px;
-    background-color: #ffce5a;
+    background-color: #F2B705;
 }
 
 .attractions-heading {
     padding: 10px;
-    color: #061d87);
+    color: #023373;
+}
+
+.attractions-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    color: #023373;
 }
 
 
@@ -234,7 +240,7 @@ div#map {
 
 .footer-attractions {
   height: 10%;
-  background-color: #061D87; 
+  background-color: #023373; 
   bottom: 0;
 }
 
