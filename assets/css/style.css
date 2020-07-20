@@ -255,10 +255,12 @@ div#map {
 
 /*Contact Page*/
 
-.contact-background {
+.contact-image {
     background-image: url("../images/penshaw_monument.jpg");
-    height: 90%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
