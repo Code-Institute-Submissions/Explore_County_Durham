@@ -255,15 +255,7 @@ div#map {
 
 /*Contact Page*/
 
-/*.contact-image {
-    background-image: url("../images/penshaw_monument.jpg");
-    height: 75%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    } */
-
-    .footer-contact {
+   .footer-contact {
     height: 10%;
     background-color: #023373; 
     bottom: 0;
@@ -276,9 +268,12 @@ div#map {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 250px;
+   }
+
+.form-text {
+    font-family: 'Lato',sans-serif;
+    font-size: 1.1rem;
+    color: #d1d4c9;
 }
 
-.form-group {
-    width: 50%;
-   }
 
