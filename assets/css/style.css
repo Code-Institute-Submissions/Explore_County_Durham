@@ -276,4 +276,6 @@ div#map {
     color: #d1d4c9;
 }
 
-
+.marker-img {
+    width: 100%;
+}
