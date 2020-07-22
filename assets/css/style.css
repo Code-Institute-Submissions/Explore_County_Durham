@@ -91,22 +91,22 @@ h3 {
 
 .site-info {
     display: none;
-     background-color: #e9ecef2b;
+    background-color: #e9ecef2b;
     border-radius: 3rem;
    }
 
 .info-text {
     font-family: "Lato", sans-serif;
     font-size: 1.1rem;
-    color: #d1d4c9;
+    color: black;
 }
 
 
 @media (max-width: 768px) {
     .info-text {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
-}
+} 
 
 
 /*Footer*/
