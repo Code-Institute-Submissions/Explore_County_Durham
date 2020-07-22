@@ -158,7 +158,7 @@ h3 {
 }
 
 /*The below code to change the appearance of the a element was taken from stack overflow
-https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button*/
+https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button
 
 a.attractions-button {
     -webkit-appearance: button;
@@ -184,7 +184,7 @@ a.attractions-button {
         height: 35px;
         border: 1px solid #706c61;
     }
-}
+} */
 
 /*Footer*/
 

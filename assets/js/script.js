@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $(".learn-more-button").on("click", () => {
+    $("#learn-more-btn").on("click", () => {
         $(".page-header").toggle("slow");
-        $(".learn-more-button").toggle("slow");
+        $("#learn-more-btn").toggle("slow");
         $(".site-info").fadeToggle("slow");
         $(".menu-nav-bar").toggle("slow");
     });
