@@ -99,44 +99,7 @@ h3 {
     }
 }
 
-/*Learn More Button on main page*/
 
-.learn-more-button {
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
-    border: 2px solid #706c61;
-    border-radius: 1rem;
-    background-color: #d1d4c9;
-    opacity: 0.9;
-}
-
-.learn-more-button:hover {
-    background-color: #706c61;
-    border: 2px solid #d1d4c9;
-}
-
-.button-text {
-    font-family: "Lato", sans-serif;
-    font-size: 1.2rem;
-    color: #2d3a4c;
-}
-
-.button-text:hover {
-    color: #d1d4c9;
-}
-
-@media (max-width: 768px) {
-    .learn-more-button {
-        width: 150px;
-        height: 40px;
-        border: 1px solid #706c61;
-        font-size: 1rem;
-    }
-    .button-text {
-        font-size: 1rem;
-    }
-}
 
 /*Styling for information section */
 
@@ -157,34 +120,6 @@ h3 {
     }
 }
 
-/*The below code to change the appearance of the a element was taken from stack overflow
-https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button*/
-
-a.attractions-button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    border: 2px solid #706c61;
-    border-radius: 1rem;
-    background-color: #d1d4c9;
-    opacity: 0.9;
-    height: 50px;
-    width: 150px;
-    padding: 5px;
-}
-
-.attractions-button:hover {
-    background-color: #706c61;
-    border: 2px solid #d1d4c9;
-}
-
-@media (max-width: 768px) {
-    .attractions-button {
-        width: 130px;
-        height: 35px;
-        border: 1px solid #706c61;
-    }
-}
 
 /*Footer*/
 
