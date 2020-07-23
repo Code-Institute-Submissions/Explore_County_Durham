@@ -8,19 +8,19 @@
         <script src="https://kit.fontawesome.com/02ab384222.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-        	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-	</script>
-	<script type="text/javascript">
-		(function(){
-      emailjs.init("user_V7BX4cqmqVo2RgrJSRaoi");
-      
-   })();
-	</script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("user_V7BX4cqmqVo2RgrJSRaoi");
+            })();
+        </script>
         <title>Explore County Durham</title>
     </head>
 
     <body>
+      <section class="container-fluid form-background">
         <header>
+       
             <nav class="navbar navbar-expand-sm menu-nav-bar fixed-top">
                 <a class="navbar-brand" href="index.html"><i class="fas fa-home menu-icon"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -38,73 +38,64 @@
                 </div>
             </nav>
         </header>
-       <div class="container-fluid contact-form">
-  
-<div class="row">
-			<div class="col-sm-12 text-center contact-title">
-				<h3>If you would like to be featured on our site, please fill in the form below</h3>
-			</div>
-		</div>
-        <div class="row justify-content-center">
-		<form>
-			<div class="form-row">
-				<div class="col-12 w-50">
-					<label for="fullname" class="form-text">Full Name</label>
-					<input type="text" class="form-control" id="fullname" required>
-               </div>
-								</div>
-					<div class="form-row">
-						<div class="col-12">
-							<label for="inputEmail4" class="form-text">Email</label>
-							<input type="email" class="form-control" id="inputEmail4" required>
-               </div>
-										</div>
-							<div class="form-row">
-								<div class="col-12">
-									<div class="form-group">
-										<label for="comment" class="form-text">What you offer</label>
-										<textarea class="form-control" rows="5" id="comment" minlength="20" required></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="col-md-12 d-flex justify-content-center">
-									<button type="submit" class="btn btn-light mb-2" id="submit">Submit</button>
-								</div>
-							</div>
-		</form>
-       </div>
-       </div>
-
-            <div class="container-fluid footer-contact">
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-center footer-content">
-                        <ul class="list-inline footer-links">
-                            <li class="list-inline-item m-0">
-                                <a target="_blank" href="https://www.facebook.com/">
-                                    <i class="fab fa-facebook-square footer-social-links" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item m-0">
-                                <a target="_blank" href="https://twitter.com/explore">
-                                    <i class="fab fa-twitter-square footer-social-links" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item m-0">
-                                <a target="_blank" href="https://www.instagram.com/">
-                                    <i class="fab fa-instagram-square footer-social-links" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item m-0">
-                                <a target="_blank" href="https://www.pinterest.com/">
-                                    <i class="fab fa-pinterest-square footer-social-links" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+       
+        <div class="container contact-form">
+            <div class="row">
+                <div class="col-sm-12 text-center contact-title">
+                    <h3>
+                        If you would like to be featured on our site, please fill in the form below
+                    </h3>
                 </div>
             </div>
-        
+            <div class="row justify-content-center">
+                <form>
+                    <div class="form-row">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" class="form-control" id="fullname" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
+                    </div>
+                    <div class="form-row">
+                        <label for="comment" class="form-text">A bit about you</label>
+                        <textarea class="form-control" rows="3" id="comment" minlength="20" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            </div>
+        </section>
+
+        <div class="container-fluid footer-contact">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center footer-content">
+                    <ul class="list-inline footer-links">
+                        <li class="list-inline-item m-0">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <i class="fab fa-facebook-square footer-social-links" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a target="_blank" href="https://twitter.com/explore">
+                                <i class="fab fa-twitter-square footer-social-links" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <i class="fab fa-instagram-square footer-social-links" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a target="_blank" href="https://www.pinterest.com/">
+                                <i class="fab fa-pinterest-square footer-social-links" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
