@@ -18,84 +18,86 @@
     </head>
 
     <body>
-      <section class="container-fluid form-background">
-        <header>
-       
-            <nav class="navbar navbar-expand-sm menu-nav-bar fixed-top">
-                <a class="navbar-brand" href="index.html"><i class="fas fa-home menu-icon"></i></a>
+    <!--NavBar shared with attractions page-->
+              <header>
+            <nav class="navbar navbar-expand-sm menu-nav-bar menu-bar-attractions">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-home menu-icon-attractions"></i></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars navigation-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link menu-text" href="attractions.html">Explore</a>
+                            <a class="nav-link menu-text-attractions" href="attractions.html">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu-text" href="contact.html">Contact</a>
+                            <a class="nav-link menu-text-attractions" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
+         <!--Form designed with help from stack overflow https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap-->
+        <section class="container-fluid form-background">
+             <h3 class="text-center form-heading"> If you would like to be featured on our site, please fill in the form below.</h3>
        
-        <div class="container contact-form">
-            <div class="row">
-                <div class="col-sm-12 text-center contact-title">
-                    <h3>
-                        If you would like to be featured on our site, please fill in the form below
-                    </h3>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <form>
-                    <div class="form-row">
-                        <label for="fullname">Full Name</label>
-                        <input type="text" class="form-control" id="fullname" />
+            <div class="container contact-form">
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <form>
+          
+                      <div class="form-group">
+                        <label for="name">Full Name:</label> 
+                        <input type="text" class="form-control" id="name" name="name"/>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email:</label> 
+                        <input type="text" class="form-control" id="email" name="email"/>
+                      </div>
+                      <div class="form-group">
+                        <label for="occasion">Your details:</label> 
+                        <input type="text" class="form-control" id="occasion" name="occasion"/>
+                      </div>
+                      <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
-                    <div class="form-row">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-                    </div>
-                    <div class="form-row">
-                        <label for="comment" class="form-text">A bit about you</label>
-                        <textarea class="form-control" rows="3" id="comment" minlength="20" required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                      </div>
+                    </form>
+                  
+                <div class="col-md-3"></div>
             </div>
-            </div>
+              </div>
         </section>
-
-        <div class="container-fluid footer-contact">
+         <div class="container-fluid footer-contact">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center footer-content">
                     <ul class="list-inline footer-links">
                         <li class="list-inline-item m-0">
                             <a target="_blank" href="https://www.facebook.com/">
-                                <i class="fab fa-facebook-square footer-social-links" aria-hidden="true"></i>
+                                <i class="fab fa-facebook-square footer-social-links attractions-links" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
                             <a target="_blank" href="https://twitter.com/explore">
-                                <i class="fab fa-twitter-square footer-social-links" aria-hidden="true"></i>
+                                <i class="fab fa-twitter-square footer-social-links attractions-links" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
                             <a target="_blank" href="https://www.instagram.com/">
-                                <i class="fab fa-instagram-square footer-social-links" aria-hidden="true"></i>
+                                <i class="fab fa-instagram-square footer-social-links attractions-links" aria-hidden="true"></i>
                             </a>
                         </li>
                         <li class="list-inline-item m-0">
                             <a target="_blank" href="https://www.pinterest.com/">
-                                <i class="fab fa-pinterest-square footer-social-links" aria-hidden="true"></i>
+                                <i class="fab fa-pinterest-square footer-social-links attractions-links" aria-hidden="true"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+
 
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
