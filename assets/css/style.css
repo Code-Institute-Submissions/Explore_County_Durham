@@ -103,14 +103,14 @@ h3 {
 
 
 @media (max-width: 768px) {
-    .site-info, h2 {
+    .info-header {
         font-size: 1.2rem
     }
-    .site-info, h3 {
+    .info-sub-header {
         font-size: 1rem;
     }
     .info-text {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 } 
 
