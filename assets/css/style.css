@@ -15,7 +15,7 @@ html {
 }
 
 .background {
-    background-image: linear-gradient(90deg, rgba(85,85,85,0.3), rgba(85,85,85,0.3), rgba(85,85,85,0.3)), url("../images/durham_cathedral_dark_2-min.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/durham_cathedral_dark_2-min.jpg");
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,16 +91,23 @@ h3 {
 
 .site-info {
     display: none;
-    background-color: #e9ecef2b;
+    background-color: #4950579c;
     border-radius: 3rem;
    }
 
 .info-text {
     font-family: "Lato", sans-serif;
     font-size: 1rem;
-    color: white;
+    color: #F2F2F0;
 }
 
+.info-header, .info-sub-header {
+    color: #F2F2F0;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+}
 
 @media (max-width: 768px) {
     .info-header {
@@ -111,6 +118,9 @@ h3 {
     }
     .info-text {
         font-size: 0.75rem;
+    }
+    .form-heading {
+        font-size: 1rem;
     }
 } 
 
