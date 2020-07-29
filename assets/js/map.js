@@ -71,8 +71,7 @@ function loadMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
     };
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    var service = new google.maps.places.PlacesService(map);
-
+    
     //Create and open InfoWindow.
     var infoWindow = new google.maps.InfoWindow();
 
@@ -106,20 +105,4 @@ function loadMap() {
 
   // below code taken from https://jsfiddle.net/upsidown/yfawx50v/
 
-    service.getDetails({
-        placeId: 'ChIJqfRfxtIkfEgR69y3K7lmqs0'
-    }, function (place, status) {
-      
-            // Get DIV element to display opening hours
-            var opening_hours_div = document.getElementById("opening-hours");
-
-            // Loop through opening hours weekday text
-            for (var i = 0; i < place.opening_hours.weekday_text.length; i++) {
-
-                // Create DIV element and append to opening_hours_div
-                var content = document.createElement('div');
-                content.innerHTML = place.opening_hours.weekday_text[i];
-                opening_hours_div.appendChild(content);
-            }
-        })
     };
