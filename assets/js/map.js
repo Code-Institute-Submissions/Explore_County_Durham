@@ -8,6 +8,7 @@ var markers = [
         header: 'Beamish Museum',
         description: "Beamish is a living, working museum, set in 300 acres of beautiful Durham countryside. Costumed folk bring to life the Town, Pit Village, Home Farm and Pockerley Old Hall.",
         image: 'assets/images/beamish_museum.jpg',
+        googlePlaceID: 'ChIJGbReleF4fkgRc9FGCn_IVUw'
     },
     {
         title: "Bowes Museum",
@@ -37,6 +38,7 @@ var markers = [
         description:
             "High Force is one of the most impressive waterfalls in England. The River Tees has been plunging into this gorge for thousands of years but the rocks it reveals are far more ancient – with origins dating back over 300 million years!",
         image: 'assets/images/high_force_waterfall.jpg',
+        googlePlaceID: 'ChIJydr0nQg6fEgRDx2CrK6oURU'
     },
     {
         title: "Diggerland Durham",
@@ -45,6 +47,7 @@ var markers = [
         header: 'Diggerland Durham',
         description: "Diggerland is the UK’s most unique construction-themed adventure park where children and adults can drive, ride and operate earth-moving machinery in a safe and family friendly environment.",
         image: 'assets/images/digger_land.jpg',
+        googlePlaceID: 'ChIJ6--NSbF_fkgRc-kFeu4wEtE'
     },
     {
         title: "Raby Castle",
@@ -53,6 +56,7 @@ var markers = [
         header: 'Raby Castle',
         description: "Raby Castle offers a brilliant and memorable family day out. It is a jewell in the crown of County Durham and one of England's finest medieval castles.",
         image: 'assets/images/raby_castle.jpg',
+        googlePlaceID: 'ChIJR7YOnAEmfEgRk6PBpBOxBDU'
     },
 ];
 
@@ -67,6 +71,7 @@ function loadMap() {
         mapTypeId: google.maps.MapTypeId.ROADMAP,
     };
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var service = new google.maps.places.PlacesService(map);
 
     //Create and open InfoWindow.
     var infoWindow = new google.maps.InfoWindow();
@@ -94,20 +99,26 @@ function loadMap() {
                 infoWindow.setContent(markerInfoHTML);
                 infoWindow.open(map, marker);
                 
-//                placeDetails = getPlaceDetails(data.googlePlaceID);
-//                updateDetailsHTML(placeDetails);
-            });
+        });
         })(marker, data);
     }
-}
 
-function getPlaceDetails (googlePlaceID) {
-    /* Gets the details and photos for the clicked 
-    on place in the marker callback from the Google Places API
-    
-    variables:
-        googlePlaceID - string
-    returns [{string, string, ..., string}]
-    */
-//    google.maps.places ...
-}
+  // below code taken from https://jsfiddle.net/upsidown/yfawx50v/
+
+    service.getDetails({
+        placeId: 'ChIJqfRfxtIkfEgR69y3K7lmqs0'
+    }, function (place, status) {
+      
+            // Get DIV element to display opening hours
+            var opening_hours_div = document.getElementById("opening-hours");
+
+            // Loop through opening hours weekday text
+            for (var i = 0; i < place.opening_hours.weekday_text.length; i++) {
+
+                // Create DIV element and append to opening_hours_div
+                var content = document.createElement('div');
+                content.innerHTML = place.opening_hours.weekday_text[i];
+                opening_hours_div.appendChild(content);
+            }
+        })
+    };
