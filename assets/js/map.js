@@ -83,6 +83,7 @@ function loadMap() {
             position: myLatlng,
             map: map,
             title: data.title,
+            animation: google.maps.Animation.DROP
         });
 
         //Attach click event to the marker.
