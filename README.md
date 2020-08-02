@@ -20,5 +20,64 @@ The colours for the site were chosen, as blue and yellow is the colour of the fl
 
 ### _**Target Audience**_
 
+The website is aimed at but not limited to the following users :
 
+* Visitors to the area.
+* People local to the area.
+* Families planning days out.
+* People who own / manage attractions.
+* Tourists from abroad.
 
+### _**User Stories**_
+
+As someone visiting the area for the first time, I want to see what sort of attractions are on offer, so that I can plan my trip.
+
+As someone living in the area, I want to see if there are any places I haven't visited before, so that I can plan a day out.
+
+As a tourist from abroad, I want to see what the area has to offer, so that I can decide to visit or not.
+
+As a parent, I want to see what family friendly places there are to visit, so I can plan a fun day out.
+
+As someone trying to decide whether to visit one of the attractions, I want to read some reviews from other people, so that I can make an informed decison.
+
+As someone planning a trip I want so see where the attractions are located, so that I can plan my journey.
+
+As someone who owns / manages an attraction, I want to be able to submit my details, so that I can request my attraction to be featured.
+
+## _**Wireframes**_
+
+### _**Home Page**_
+
+<p align="center">
+  <img width="600" height="400" src="assets/files/durham_homepage_wireframe.png">
+</p>
+
+### _**Attractions Page**_
+
+<p align="center">
+  <img width="600" height="400" src="assets/files/durham_explore_wireframe.png">
+</p>
+
+### _**Reviews Page**_
+
+<p align="center">
+  <img width="600" height="400" src="assets/files/durham_reviews_wireframe.png">
+</p>
+
+### _**Contact Page**_
+
+<p align="center">
+  <img width="600" height="400" src="assets/files/durham_contact_wireframe.png">
+</p>
+
+### _**Tablet View**_
+
+<p align="center">
+  <img width="400" height="600" src="assets/files/durham_tablet_wireframe.png">
+</p>
+
+### _**Smartphone View**_
+
+<p align="center">
+  <img width="260" height="600" src="assets/files/durham_smartphone_wireframe.png">
+</p>
