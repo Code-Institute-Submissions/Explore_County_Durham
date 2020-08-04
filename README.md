@@ -90,7 +90,7 @@ As someone who owns / manages an attraction, I want to be able to submit my deta
 and encourages the user to explore the interactive map.
 * **Interactive Map** - A map with clickable markers allows users to explore the attractions on offer in the county.
 * **Marker Info Window** - An info window appears above each marker when clicked, this gives users more information about each attraction.
-* **Contact Form** - Allows users to submit their information if they would liek their attraction to be featured on the site.
+* **Contact Form** - Allows users to submit their information if they would like their attraction to be featured on the site.
 * **Favicon** - Allows users to identify the site in their open browser tabs.
 
 ### _**Features left to implement**_
@@ -118,4 +118,3 @@ and encourages the user to explore the interactive map.
 [Google Maps Api](https://developers.google.com/maps/documentation/javascript/overview) - Google maps Api was used to create the interactive map.
 
 [Email Js](https://www.emailjs.com/) - Email JS was used to send an email when the contact form has been submitted.
-
