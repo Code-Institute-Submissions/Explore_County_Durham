@@ -117,5 +117,5 @@ and encourages the user to explore the interactive map.
 
 [Google Maps Api](https://developers.google.com/maps/documentation/javascript/overview) - Google maps Api was used to create the interactive map.
 
-[Email Js](https://www.emailjs.com/) - Email JS as used to send an email when the contact form has been submitted.
+[Email Js](https://www.emailjs.com/) - Email JS was used to send an email when the contact form has been submitted.
 
