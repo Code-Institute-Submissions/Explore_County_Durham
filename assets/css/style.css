@@ -227,3 +227,14 @@ div#map {
 		font-size: 0.9rem;
 	}
 }
+
+/*Reviews Page*/
+
+.reviews_row {
+    background-color: #f2b705;
+}
+
+.reviews_header {
+    color: #023373;
+    padding-top: 1rem;
+}
