@@ -1,3 +1,5 @@
+// This codes used from the Code Institute Interactove Front End Module
+
 function sendMail(contactForm) {
     emailjs.send("gmail", "durham", {
         "from_name": contactForm.name.value, 

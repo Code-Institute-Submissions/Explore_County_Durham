@@ -81,3 +81,41 @@ As someone who owns / manages an attraction, I want to be able to submit my deta
 <p align="center">
   <img width="260" height="600" src="assets/files/durham_smartphone_wireframe.png">
 </p>
+
+## _**Features**_
+
+* **Navigation Bar** - The navigation bar is easy to use and consistent across the site, it is designed responsively and collapses down on smaller devices.
+* **Footer Links** - Allows the user to link to various social media pages when clicked.
+* **Jumbotron** - The jumbotron pops up after users have clicked learn more on the homepage. It gives users information about the County and it's attractions
+and encourages the user to explore the interactive map.
+* **Interactive Map** - A map with clickable markers allows users to explore the attractions on offer in the county.
+* **Marker Info Window** - An info window appears above each marker when clicked, this gives users more information about each attraction.
+* **Contact Form** - Allows users to submit their information if they would liek their attraction to be featured on the site.
+* **Favicon** - Allows users to identify the site in their open browser tabs.
+
+### _**Features left to implement**_
+
+*
+*
+*
+
+## _**Technologies Used**_
+
+[HTML](https://en.wikipedia.org/wiki/HTML5) - HTML provides the content and structure for my website
+
+[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS provides the styling.
+
+[Bootstrap](https://getbootstrap.com/) - The Bootstrap framework was used to create the layout for all of the pages. It was also used for the responsive navigation bar.
+
+[Google Fonts](https://fonts.google.com/) - I used the Allegraya and Lato fonts on each of my pages.
+
+[Font Awesome](https://fontawesome.com/) - I used the font awesome icons to style the links in the footer.
+
+[jQuery](https://jquery.com/) - jQuery was used to toggle in the Jumbotron and its elements.
+
+[javaScript](https://www.javascript.com/) - javaScript was used for the google maps api and the Emailjs api.
+
+[Google Maps Api](https://developers.google.com/maps/documentation/javascript/overview) - Google maps Api was used to create the interactive map.
+
+[Email Js](https://www.emailjs.com/) - Email JS as used to send an email when the contact form has been submitted.
+
