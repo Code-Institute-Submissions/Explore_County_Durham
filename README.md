@@ -95,7 +95,7 @@ and encourages the user to explore the interactive map.
 
 ### _**Features left to implement**_
 
-*
+* To be able to search for an attraction and read the reviews.
 *
 *
 

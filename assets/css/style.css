@@ -238,3 +238,16 @@ div#map {
     color: #023373;
     padding-top: 1rem;
 }
+
+.reviews_text {
+    font-family: 'Lato', sans-serif;
+    color: #023373;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.img-thumbnail {
+    background-color: #f2b705;
+    border: 1px solid #f2b705;
+    border-radius: 1.5rem;
+}
