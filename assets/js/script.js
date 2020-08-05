@@ -12,4 +12,8 @@ $(document).ready(function () {
          this.reset();
     });
 });
+$('.reviews_image_1').mouseover(function(){
+    $('.review_toggle_1').slideToggle('slow');
+    $('.review_1').slideToggle('slow');
+})
 });

@@ -251,3 +251,7 @@ div#map {
     border: 1px solid #f2b705;
     border-radius: 1.5rem;
 }
+
+.review_toggle_1 {
+    display: none;
+}

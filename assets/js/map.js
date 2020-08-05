@@ -72,6 +72,7 @@ window.onload = function () {
 function loadMap() {
    //infowindow instance
     var infowindow = new google.maps.InfoWindow();
+    
 for (var i = 0; i < markers.length; i++) {
     data = markers[i]
     console.log(data)
@@ -123,7 +124,7 @@ for (var i = 0; i < markers.length; i++) {
         html += "</ol>";
     
       //create info window content
-      var content = "<h3>" + place.name + "</h3> <h4>Business hours:</h4>" + html;
+      var content = "<h3>" + data.title + "</h3> <h4>Business hours:</h4>" + html;
           
       //add marker on click listener to open an infowindow
       //with each location's name and opening_hours.weekday_text
