@@ -252,6 +252,8 @@ div#map {
     border-radius: 1.5rem;
 }
 
-.review_toggle_1 {
+.review_toggle_1, .review_toggle_2,
+.review_toggle_3, .review_toggle_4,
+.review_toggle_5, .review_toggle_6 {
     display: none;
 }
