@@ -72,8 +72,10 @@ window.onload = function () {
 function loadMap() {
    //infowindow instance
     var infowindow = new google.maps.InfoWindow();
-
-  
+for (var i = 0; i < markers.length; i++) {
+    data = markers[i]
+    console.log(data)
+}
     //Initialize map
     map = new google.maps.Map(document.getElementById("map"), {
       center: { lat: 54.774010, lng: -1.724413 },
