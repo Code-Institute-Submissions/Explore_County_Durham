@@ -237,12 +237,13 @@ div#map {
 .reviews_header {
     color: #023373;
     padding-top: 1rem;
+    font-size: 1.2rem;
 }
 
 .reviews_text {
     font-family: 'Lato', sans-serif;
     color: #023373;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding-top: 1rem;
 }
 

@@ -5,7 +5,7 @@ a little bit of information about County Durham and an option for users to click
 The map was designed with markers added of a number of attractions around the county. When the marker is clicked an ino window appears
 giving the user further information about the attraction. <br>
 The site also features a contact form for people to leave reviews about the places they have visitied and also request for their attraction to be
-featured on the website. Their is also a reviews page to allow users to read about what people think of the attractions and hekp them choose where yto visit.
+featured on the website. There is also a reviews page to allow users to read about what people think of the attractions and help them choose where to visit.
 
 The deployed website can be viewed here  - [Explore County Durham](https://adamparker75.github.io/Explore_County_Durham/).
 
