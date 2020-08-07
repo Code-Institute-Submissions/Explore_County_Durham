@@ -75,7 +75,7 @@ function loadMap() {
     
 for (var i = 0; i < markers.length; i++) {
     data = markers[i]
-    console.log(data)
+    console.log(data.title)
 }
     //Initialize map
     map = new google.maps.Map(document.getElementById("map"), {
@@ -100,9 +100,7 @@ for (var i = 0; i < markers.length; i++) {
         service.getDetails(request, function (place, status) {
             if (status == google.maps.places.PlacesServiceStatus.OK) {
         createMarker(place);
-            } else {
-        alert('Place Details request failed due to: ' + status);
-        }
+            } 
           });
       }
     
