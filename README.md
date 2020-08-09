@@ -27,6 +27,7 @@ The website is aimed at but not limited to the following users :
 * Families planning days out.
 * People who own / manage attractions.
 * Tourists from abroad.
+* People who want to read reviews about the attractions.
 
 ### _**User Stories**_
 
@@ -173,3 +174,31 @@ v.   Is the text below the image clear and easy to read? <br>
 vi.  If I hover over an image does another review appear and the previous review disappear? 
 
 **All tests performed and no errors found.**
+
+5. **Leave a review / submit details**
+
+i.   Click on the contact link in the navigation bar. <br>
+ii.  Does the contact page appear? <br>
+iii. Click the submit button to submit a blank form, does the required field message apear? <br>
+iv.  Test the email field with an incorrect email address, can the form be submitted?
+v.   Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?
+vi.  Fill out all the fields correctly and click submit, can the form be submitted?
+vii. Is an email received with the details submitted in the form?
+
+**All tests performed and no errors found.**
+
+6. **Social Media links**
+
+i.   Are the social media links visible on the home page? <br>
+ii.  Click on the explore, reviews and contact pages, are the social media links visible on both of these pages? <br>
+iii. On each of the pages, home page, explore, reviews and contact page, click the facebook social media link, does facebook open? <br>
+iv.  On each of the pages, home page, explore, reviews and contact page, click the twitter social media link, does twitter open? <br>
+v.   On each of the pages, home page, explore, reviews and contact page, click the istagram social media link, does instagram open? <br>
+vi.  On each of the pages, home page, explore, reviews and contact page, click the pinterest social media link, does pinterest open? <br>
+
+**All tests performed and no errors found.**
+
+**I tested the website on the following browsers using a Microsoft Surface Pro on Windows 10 pro.**
+
+* Google Chrome - Version 84.0.4147.105 (Official Build) (64-bit)
+* 
