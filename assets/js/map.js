@@ -56,6 +56,7 @@ var markers = [
     },
 ];
 
+// This code was created with help form Stack Overflow https://stackoverflow.com/questions/63131682/adding-opening-hours-to-google-maps-info-window
 
 // An array of the locations to put a marker on
 var locations = ["ChIJGbReleF4fkgRc9FGCn_IVUw", //Beamish Museum

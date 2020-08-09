@@ -180,9 +180,9 @@ vi.   If I hover over an image does another review appear and the previous revie
 i.    Click on the contact link in the navigation bar. <br>
 ii.   Does the contact page appear? <br>
 iii.  Click the submit button to submit a blank form, does the required field message apear? <br>
-iv.   Test the email field with an incorrect email address, can the form be submitted?
-v.    Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?
-vi.   Fill out all the fields correctly and click submit, can the form be submitted?
+iv.   Test the email field with an incorrect email address, can the form be submitted? <br>
+v.    Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?<br>
+vi.   Fill out all the fields correctly and click submit, can the form be submitted?<br>
 vii.  Does the form clear after it has been submitted? <br>
 viii. Does an alert appear to say your request has been sent after the form is submitted? <br>   
 ix.   Is an email received with the details submitted in the form?
