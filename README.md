@@ -184,7 +184,7 @@ iv.   Test the email field with an incorrect email address, can the form be subm
 v.    Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?<br>
 vi.   Fill out all the fields correctly and click submit, can the form be submitted?<br>
 vii.  Does the form clear after it has been submitted? <br>
-viii. Does an alert appear to say your request has been sent after the form is submitted? <br>   
+viii. Does an alert appear to say your request has been sent after the form is submitted? <br>
 ix.   Is an email received with the details submitted in the form?
 
 **All tests performed and no errors found.**

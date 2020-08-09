@@ -3,258 +3,254 @@
 /*Sets the root element font size*/
 
 html {
-	font-size: 20px;
+  font-size: 20px;
 }
-
 
 /* Main background image, code found on W3 Schools
 https://www.w3schools.com/css/css3_backgrounds.asp*/
 
 body,
 html {
-	height: 100%;
+  height: 100%;
 }
 
 .background {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/durham_cathedral_dark_2-min.jpg");
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
-	background-attachment: fixed;
-	background-blend-mode: darken;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/durham_cathedral_dark_2-min.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*Background-size cover, scales the background image, covers the whole background and keeps the image in proportion*/
+  background-attachment: fixed;
+  background-blend-mode: darken;
 }
-
 
 /*Navigation bar*/
 
 .menu-nav-bar .menu-text {
-	font-family: "Alegraya", sans-serif;
-	font-size: 1.4rem;
-	font-weight: 300;
-	height: 3rem;
-	color: #d1d4c9;
+  font-family: "Alegraya", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  height: 3rem;
+  color: #d1d4c9;
 }
 
 .navbar-toggler {
-	padding: 0.25rem 0.75rem;
-	font-size: 1.25rem;
-	background-color: transparent;
-	border: 1px solid transparent;
-	border-radius: 0.25rem;
-	color: #d1d4c9;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #d1d4c9;
 }
 
 .menu-icon {
-	font-size: 2rem;
-	color: #d1d4c9;
+  font-size: 2rem;
+  color: #d1d4c9;
 }
 
 .menu-icon-attractions {
-	font-size: 2rem;
-	color: #f2b705;
+  font-size: 2rem;
+  color: #f2b705;
 }
 
 .menu-bar-attractions {
-	background-color: #023373;
+  background-color: #023373;
 }
 
 .menu-text-attractions {
-	font-family: "Alegraya", sans-serif;
-	font-size: 1.4rem;
-	font-weight: 300;
-	height: 3rem;
-	color: #f2b705;
+  font-family: "Alegraya", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  height: 3rem;
+  color: #f2b705;
 }
 
 .navigation-bars {
-	color: #f2b705;
+  color: #f2b705;
 }
-
 
 /* Styling for all heading elements*/
 
 h1 {
-	font-family: "Alegraya", sans-serif;
-	color: #d1d4c9;
+  font-family: "Alegraya", sans-serif;
+  color: #d1d4c9;
 }
 
 h2 {
-	font-family: "Alegraya", sans-serif;
-	color: #d1d4c9;
+  font-family: "Alegraya", sans-serif;
+  color: #d1d4c9;
 }
 
 h3 {
-	font-family: "Alegraya", sans-serif;
-	color: #d1d4c9;
+  font-family: "Alegraya", sans-serif;
+  color: #d1d4c9;
 }
-
 
 /*Styling for information section */
 
 .site-info {
-	display: none;
-	background-color: #4950579c;
-	border-radius: 3rem;
+  display: none;
+  background-color: #4950579c;
+  border-radius: 3rem;
 }
 
 .info-text {
-	font-family: "Lato", sans-serif;
-	font-size: 1.1rem;
-	color: #f2f2f0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #f2f2f0;
 }
 
 @media (max-width: 768px) {
-	.info-header {
-		font-size: 1.2rem
-	}
-	.info-sub-header {
-		font-size: 1rem;
-	}
-	.info-text {
-		font-size: 0.75rem;
-	}
-	.form-heading {
-		font-size: 1rem;
-	}
+  .info-header {
+    font-size: 1.2rem;
+  }
+  .info-sub-header {
+    font-size: 1rem;
+  }
+  .info-text {
+    font-size: 0.75rem;
+  }
+  .form-heading {
+    font-size: 1rem;
+  }
 }
-
 
 /*Footer*/
 
 .footer {
-	height: 10%;
-	background-color: black;
-	/*This code places footer at bottom of background image*/
-	position: fixed;
-	bottom: 0;
+  height: 10%;
+  background-color: black;
+  /*This code places footer at bottom of background image*/
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-social-links {
-	color: #d1d4c9;
-	font-size: 2rem;
-	letter-spacing: 1rem;
-	padding-left: 0.5rem;
-	padding-top: 0.75rem;
+  color: #d1d4c9;
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  padding-left: 0.5rem;
+  padding-top: 0.75rem;
 }
 
 .attractions-links {
-	color: #f2b705;
-	font-size: 1.8rem;
-	letter-spacing: 1rem;
-	padding-left: 0.5rem;
-	padding-top: 0.75rem;
+  color: #f2b705;
+  font-size: 1.8rem;
+  letter-spacing: 1rem;
+  padding-left: 0.5rem;
+  padding-top: 0.75rem;
 }
 
 @media (max-width: 420px) {
-	.footer-social-links {
-		font-size: 1.2rem;
-		display: inline;
-	}
+  .footer-social-links {
+    font-size: 1.2rem;
+    display: inline;
+  }
 }
-
 
 /*Attractions Page*/
 
 .attractions-title {
-	background-color: #f2b705;
+  background-color: #f2b705;
 }
 
 .attractions-heading {
-	padding: 10px;
-	color: #023373;
+  padding: 10px;
+  color: #023373;
 }
 
 .attractions-text {
-	font-family: "Lato", sans-serif;
-	font-size: 1.1rem;
-	color: #023373;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #023373;
 }
 
 div#map {
-	height: 36.25rem;
+  height: 36.25rem;
 }
 
 .marker-img {
-	width: 75%;
+  width: 75%;
 }
 
 .footer-attractions,
 .footer-contact {
-	height: 10%;
-	background-color: #023373;
-	bottom: 0;
+  height: 10%;
+  background-color: #023373;
+  bottom: 0;
 }
-
 
 /*Google Maps Info window*/
 
 .info-window-title {
-	font-family: "Alegraya", sans-serif;
-	color: black;
+  font-family: "Alegraya", sans-serif;
+  color: black;
 }
-
 
 /*Contact Page*/
 
 .form-background {
-	height: 100%;
-	background-image: url("../images/penshaw_monument.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  height: 100%;
+  background-image: url("../images/penshaw_monument.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-group {
-	font-family: 'Lato', sans-serif;
-	font-size: 1.1rem;
-	color: #d1d4c9;
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  color: #d1d4c9;
 }
 
 .form-heading {
-	padding-top: 5rem;
-	padding-bottom: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 
 .test {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
-	.form-group {
-		font-size: 0.9rem;
-	}
+  .form-group {
+    font-size: 0.9rem;
+  }
 }
 
 /*Reviews Page*/
 
 .reviews_row {
-    background-color: #f2b705;
+  background-color: #f2b705;
 }
 
 .reviews_header {
-    color: #023373;
-    padding-top: 1rem;
-    font-size: 1.2rem;
+  color: #023373;
+  padding-top: 1rem;
+  font-size: 1.2rem;
 }
 
 .reviews_text {
-    font-family: 'Lato', sans-serif;
-    color: #023373;
-    font-size: 0.9rem;
-    padding-top: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #023373;
+  font-size: 0.9rem;
+  padding-top: 1rem;
 }
 
 .img-thumbnail {
-    background-color: #f2b705;
-    border: 1px solid #f2b705;
-    border-radius: 1.5rem;
+  background-color: #f2b705;
+  border: 1px solid #f2b705;
+  border-radius: 1.5rem;
 }
 
-.review_toggle_1, .review_toggle_2,
-.review_toggle_3, .review_toggle_4,
-.review_toggle_5, .review_toggle_6 {
-    display: none;
+.review_toggle_1,
+.review_toggle_2,
+.review_toggle_3,
+.review_toggle_4,
+.review_toggle_5,
+.review_toggle_6 {
+  display: none;
 }
