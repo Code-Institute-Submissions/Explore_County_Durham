@@ -34,15 +34,15 @@ As someone visiting the area for the first time, I want to see what sort of attr
 
 As someone living in the area, I want to see if there are any places I haven't visited before, so that I can plan a day out.
 
-As a tourist from abroad, I want to see what the area has to offer, so that I can decide to visit or not.
-
 As a parent, I want to see what family friendly places there are to visit, so I can plan a fun day out.
 
 As someone trying to decide whether to visit one of the attractions, I want to read some reviews from other people, so that I can make an informed decison.
 
-As someone planning a trip I want so see where the attractions are located, so that I can plan my journey.
+As someone who wants to help other people decide whether to visit an attraction, I want to be able to leave a review, so that other people can read it on the site and decide if they want to visit.
 
 As someone who owns / manages an attraction, I want to be able to submit my details, so that I can request my attraction to be featured.
+
+As someone who uses social media, I want to be able to find social media pages related to County Durham, so that I can follow any of interest to me. 
 
 ## _**Wireframes**_
 
@@ -96,8 +96,9 @@ and encourages the user to explore the interactive map.
 ### _**Features left to implement**_
 
 * To be able to search for an attraction and read the reviews.
-*
-*
+* Add a filter option onto the map to include for example family friendly or disabled access.
+* Add hotels or restaurants close to the attractions. 
+* Widen the search area to include the whole of the North East, not just County Durham.
 
 ## _**Technologies Used**_
 
@@ -118,3 +119,57 @@ and encourages the user to explore the interactive map.
 [Google Maps Api](https://developers.google.com/maps/documentation/javascript/overview) - Google maps Api was used to create the interactive map.
 
 [Email Js](https://www.emailjs.com/) - Email JS was used to send an email when the contact form has been submitted.
+
+
+## _**Testing**_
+
+I carried out a lot of testing using the developer tools in Google Chrome, I did this to ensure the site worked well on smaller devices
+and to make sure the website was responsive. I also used tools like [JSHint](https://jshint.com/) and [W3C Markup Validation Service](https://validator.w3.org/) to ensure my
+code was correct and had no errors.
+
+### _**User Story Tests**_
+
+1. **First Time Visitor**
+
+i.   Click the **learn more** button on the home page. <br>
+ii.  Does the jumbotron appear? <br>
+iii. Is the text in the jumbotron clear and easy to read? <br>
+iv.  Click the **click here** button. <br>
+v.   Does the explore page open? <br>
+vi.  Does the map load and are the markers visible? <br>
+vii. When the markers are clicked does an info window appear? <br>
+vii. Is the text visible and easy to read? 
+
+**All tests performed and no errors found.**
+
+2. **Person from the local area**
+
+i.   Click on the explore link in the navigation bar.
+ii.  Does the explore page open? <br>
+iii. Does the map load and are the markers visible? <br>
+iv.  When the markers are clicked does an info window appear? <br>
+v.   Is the text visible and easy to read? 
+
+**All tests performed and no errors found.**
+
+3. **Parent**
+
+i.   Click on the explore link in the navigation bar. <br>
+ii.  Does the explore page open? <br>
+iii. Does the map load and are the markers visible? <br>
+iv.  When the markers are clicked does an info window appear? <br>
+v.   Is the text visible and easy to read? 
+vi.  Is there enough information about the attraction for someone to know if it is family friendly? <br>
+
+**All tests performed and no errors found.**
+
+4. **Reviews Page**
+
+i.   Click on the reviews link in the navigation bar. <br>
+ii.  Does the reviews page open? <br>
+iii. Is the user able to distinguish between the different attractions> <br>
+iv.  Does an image of each attraction appear? <br>
+v.   Is the text below the image clear and easy to read? <br>
+vi.  If I hover over an image does another review appear and the previous review disappear? 
+
+**All tests performed and no errors found.**
