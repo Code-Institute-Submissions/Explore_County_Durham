@@ -132,73 +132,89 @@ code was correct and had no errors.
 
 1. **First Time Visitor**
 
-i.   Click the **learn more** button on the home page. <br>
-ii.  Does the jumbotron appear? <br>
-iii. Is the text in the jumbotron clear and easy to read? <br>
-iv.  Click the **click here** button. <br>
-v.   Does the explore page open? <br>
-vi.  Does the map load and are the markers visible? <br>
-vii. When the markers are clicked does an info window appear? <br>
-vii. Is the text visible and easy to read? 
+i.    Click the **learn more** button on the home page. <br>
+ii.   Does the jumbotron appear? <br>
+iii.  Is the text in the jumbotron clear and easy to read? <br>
+iv.   Click the **click here** button. <br>
+v.    Does the explore page open? <br>
+vi.   Does the map load and are the markers visible? <br>
+vii.  When the markers are clicked does an info window appear? <br>
+vii.  Is the text visible and easy to read? 
 
 **All tests performed and no errors found.**
 
 2. **Person from the local area**
 
-i.   Click on the explore link in the navigation bar.
-ii.  Does the explore page open? <br>
-iii. Does the map load and are the markers visible? <br>
-iv.  When the markers are clicked does an info window appear? <br>
-v.   Is the text visible and easy to read? 
+i.    Click on the explore link in the navigation bar.
+ii.   Does the explore page open? <br>
+iii.  Does the map load and are the markers visible? <br>
+iv.   When the markers are clicked does an info window appear? <br>
+v.    Is the text visible and easy to read? 
 
 **All tests performed and no errors found.**
 
 3. **Parent**
 
-i.   Click on the explore link in the navigation bar. <br>
-ii.  Does the explore page open? <br>
-iii. Does the map load and are the markers visible? <br>
-iv.  When the markers are clicked does an info window appear? <br>
-v.   Is the text visible and easy to read? 
-vi.  Is there enough information about the attraction for someone to know if it is family friendly? <br>
+i.    Click on the explore link in the navigation bar. <br>
+ii.   Does the explore page open? <br>
+iii.  Does the map load and are the markers visible? <br>
+iv.   When the markers are clicked does an info window appear? <br>
+v.    Is the text visible and easy to read? 
+vi.   Is there enough information about the attraction for someone to know if it is family friendly? <br>
 
 **All tests performed and no errors found.**
 
 4. **Reviews Page**
 
-i.   Click on the reviews link in the navigation bar. <br>
-ii.  Does the reviews page open? <br>
-iii. Is the user able to distinguish between the different attractions> <br>
-iv.  Does an image of each attraction appear? <br>
-v.   Is the text below the image clear and easy to read? <br>
-vi.  If I hover over an image does another review appear and the previous review disappear? 
+i.    Click on the reviews link in the navigation bar. <br>
+ii.   Does the reviews page open? <br>
+iii.  Is the user able to distinguish between the different attractions> <br>
+iv.   Does an image of each attraction appear? <br>
+v.    Is the text below the image clear and easy to read? <br>
+vi.   If I hover over an image does another review appear and the previous review disappear? 
 
 **All tests performed and no errors found.**
 
 5. **Leave a review / submit details**
 
-i.   Click on the contact link in the navigation bar. <br>
-ii.  Does the contact page appear? <br>
-iii. Click the submit button to submit a blank form, does the required field message apear? <br>
-iv.  Test the email field with an incorrect email address, can the form be submitted?
-v.   Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?
-vi.  Fill out all the fields correctly and click submit, can the form be submitted?
-vii. Is an email received with the details submitted in the form?
+i.    Click on the contact link in the navigation bar. <br>
+ii.   Does the contact page appear? <br>
+iii.  Click the submit button to submit a blank form, does the required field message apear? <br>
+iv.   Test the email field with an incorrect email address, can the form be submitted?
+v.    Place 10 characters in the text box and press submit. Do you get a message about the minimum number of characters?
+vi.   Fill out all the fields correctly and click submit, can the form be submitted?
+vii.  Does the form clear after it has been submitted? <br>
+viii. Does an alert appear to say your request has been sent after the form is submitted? <br>   
+ix.   Is an email received with the details submitted in the form?
 
 **All tests performed and no errors found.**
 
 6. **Social Media links**
 
-i.   Are the social media links visible on the home page? <br>
-ii.  Click on the explore, reviews and contact pages, are the social media links visible on both of these pages? <br>
-iii. On each of the pages, home page, explore, reviews and contact page, click the facebook social media link, does facebook open? <br>
-iv.  On each of the pages, home page, explore, reviews and contact page, click the twitter social media link, does twitter open? <br>
-v.   On each of the pages, home page, explore, reviews and contact page, click the istagram social media link, does instagram open? <br>
-vi.  On each of the pages, home page, explore, reviews and contact page, click the pinterest social media link, does pinterest open? <br>
+i.    Are the social media links visible on the home page? <br>
+ii.   Click on the explore, reviews and contact pages, are the social media links visible on both of these pages? <br>
+iii.  On each of the pages, home page, explore, reviews and contact page, click the facebook social media link, does facebook open? <br>
+iv.   On each of the pages, home page, explore, reviews and contact page, click the twitter social media link, does twitter open? <br>
+v.    On each of the pages, home page, explore, reviews and contact page, click the istagram social media link, does instagram open? <br>
+vi.   On each of the pages, home page, explore, reviews and contact page, click the pinterest social media link, does pinterest open? <br>
 
 **All tests performed and no errors found.**
 
 **I tested the website on the following browsers using a Microsoft Surface Pro on Windows 10 pro.**
 
 * Google Chrome - Version 84.0.4147.105 (Official Build) (64-bit)
-* 
+* Microsoft Edge - Version 84.0.522.52 (Official build) (64-bit)
+* Mozilla Firefox - 79.0 (64-bit)
+
+The website worked very well on all of these browsers. The map loaded and markers and info windows appeared. The reviews changed if I hovered over an image on each browser. 
+The contact form worked correctly, and all social media links worked correctly.
+
+**I tested the website on a number of devices as listed below**
+
+Google Pixel 3 xl using Google Chrome on Android 10.
+
+Moto E5 using using Google Chrome on Android 8.1.
+
+Ipad 6th Generation using Safari on IOS 13.4.
+
+Iphone 8 using Safari on IOS 13.4.
