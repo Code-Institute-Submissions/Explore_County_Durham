@@ -79,19 +79,13 @@ html {
 
 /* Styling for all heading elements*/
 
-h1 {
+h1,h2,h3 {
   font-family: "Alegraya", sans-serif;
   color: #d1d4c9;
 }
 
-h2 {
+h4 {
   font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
-}
-
-h3 {
-  font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
 }
 
 /*Styling for information section */
@@ -197,6 +191,12 @@ div#map {
 .info-window-title {
   font-family: "Alegraya", sans-serif;
   color: black;
+}
+
+.info-window-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 /*Contact Page*/

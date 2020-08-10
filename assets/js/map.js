@@ -83,7 +83,7 @@ function getPlaceDetails(generalPlaceInfo) {
 
 function getMarkerHTML(placeInfo) {
 	// create ordered list for the location's business hours
-	var openingHoursHtml = "<ol style='list-style: none'>";
+	var openingHoursHtml = "<ol style='list-style: none' class='info-window-text'>";
 	var placesWeekdayText = placeInfo.google.opening_hours.weekday_text;
 
 	// Loop through array and add list items
@@ -92,7 +92,7 @@ function getMarkerHTML(placeInfo) {
 	}
 	openingHoursHtml += "</ol>";
     
-    let placeDescriptionHtml = `<p>${placeInfo.general.description}</p>`;
+    let placeDescriptionHtml = `<p class="info-window-text">${placeInfo.general.description}</p>`;
     let placeImageHtml = `<img class="marker-img" src="${placeInfo.general.image}">`;
 
 	//create info window content
@@ -100,11 +100,10 @@ function getMarkerHTML(placeInfo) {
 <div class="text-center">
     <h4 class='info-window-title'>
     ${placeInfo.google.name}
-    </h4 class='info-window-title'>
-    <h4>Place Description</h4>
+    </h4>
     ${placeDescriptionHtml}
     ${placeImageHtml}
-    <h4>Opening hours</h4>
+    <h4 class='info-window-title'>Opening hours</h4>
     ${openingHoursHtml}
 </div>
 `;
