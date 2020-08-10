@@ -4,6 +4,8 @@ $(document).ready(function () {
     for (var i=1; i <= 6; i++){
         mouseOverEffect(i);
     };
+
+// Elements removed from home page when the learn more button is clicked    
     
 	$("#learn-more-btn").on("click", () => {
 		$(".page-header").toggle("slow");
@@ -12,6 +14,8 @@ $(document).ready(function () {
 		$(".menu-nav-bar").toggle("slow");
 	});
 });
+
+//Mouseover effect to toggle reviews when an image is hovered over
 
 function mouseOverEffect(imageNumber){
     $(`.reviews_image_${imageNumber}`).mouseover(function () {
