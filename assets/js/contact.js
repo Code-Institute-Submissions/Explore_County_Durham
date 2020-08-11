@@ -30,3 +30,9 @@ $('#contactForm').on('submit', function(e) {
          this.reset();
     });
 });
+
+//Overlay spinner created from https://jsfiddle.net/mshaker88/u41rgq3e/
+
+$('.button').click(function(){
+    $('#overlay').fadeIn().delay(1000).fadeOut();
+});

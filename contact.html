@@ -56,7 +56,15 @@
                         <textarea class="form-control" id="comment" required="" rows="3"></textarea>
                      </div>
                      <div class="text-center">
-                        <button class="btn btn-warning" type="submit">Submit</button>
+
+                     <!--Overlay and spinner created from https://jsfiddle.net/mshaker88/u41rgq3e/ -->
+
+           						<button class="btn btn-warning button" type="submit">Submit</button>
+							<div id="overlay" style="display:none;">
+								<div class="spinner"></div>
+								<br/>
+								Submitting...
+						</div>
                      </div>
                   </form>
                </div>
