@@ -232,6 +232,18 @@ div#map {
   }
 }
 
+@media (min-width: 768px) {
+  .form-heading {
+    padding-top: 10rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .form-heading {
+    padding-top: 2rem;
+  }
+}
+
 /*Reviews Page*/
 
 .reviews_row {

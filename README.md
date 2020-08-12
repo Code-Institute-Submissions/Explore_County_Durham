@@ -248,4 +248,5 @@ the whole image. To resolve this I resized the images and made them 75% of the c
 that this happens on, I have tried to add padding through a media query and also tried making the footer fixed, but this still does not resolve the issue. As this is 
 only one device I will continue to work on a resolution.
 
-2. 
+2. When viewing the contact form on a mobile device. When the keyboard appears to type into the text box,
+some white space appears at the bottom of the screen. This does not happen when viewed in Dev tools and I am still looking at a way to resolve this."
