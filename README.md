@@ -218,3 +218,34 @@ Moto E5 using using Google Chrome on Android 8.1.
 Ipad 6th Generation using Safari on IOS 13.4.
 
 Iphone 8 using Safari on IOS 13.4.
+
+**I used the following websites for validation of my code**
+
+[HTML validation.](https://validator.w3.org/)
+
+[CSS validation.](https://jigsaw.w3.org/css-validator/)
+
+[JavaScript validation.](https://jshint.com/)
+
+### _**Issues found in testing**_
+
+1. The text on the jumbotron overflowed the container when viewed on smaller devices. To fix this I created 
+a media query to reduce the font size down at a certain screen size.
+
+2. The image on the home page took a long time to load when opening the home page for the first time. This was due to the 
+size of the image. I resolved this by using an [image compressing tool](https://compressimage.toolur.com/) to reduce the size of 
+the image and increase the load time.
+
+3. The text on the navigation bar when collapsed, over lapped some of the content on the pages. I created a media query to reduce
+the font size when viewed on smaller devices.
+
+4. The images in the info windows on the google map were far too large causing the info window to scroll to the right to view
+the whole image. To resolve this I resized the images and made them 75% of the container, which made them responsive when viewed on smaller devices.
+
+### _**Not yet resolved**_
+
+1. When viewing the contact form through the dev tools, if you select Iphone 5 / SE, the bottom of the contact form overlaps the footer. This is the only device
+that this happens on, I have tried to add padding through a media query and also tried making the footer fixed, but this still does not resolve the issue. As this is 
+only one device I will continue to work on a resolution.
+
+2. 
