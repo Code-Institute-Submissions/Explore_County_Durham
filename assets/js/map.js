@@ -1,3 +1,6 @@
+//The code for the Google maps Api was created with help from - https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx//
+
+
 var map;
 var service;
 var openInfoWindow;
@@ -63,7 +66,7 @@ window.onload = function () {
 	loadMap();
 };
 
-/* This function queries Google Places API for the passed place */
+/* This function queries Google Places API for the passed placeID */
 function getPlaceDetails(generalPlaceInfo) {
     var request = {
         placeId: generalPlaceInfo.placeId,
@@ -82,7 +85,7 @@ function getPlaceDetails(generalPlaceInfo) {
 
 
 function getMarkerHTML(placeInfo) {
-	// create ordered list for the location's business hours
+	// Create ordered list for the location's business hours
 	var openingHoursHtml = "<ol style='list-style: none' class='info-window-text'>";
 	var placesWeekdayText = placeInfo.google.opening_hours.weekday_text;
 
@@ -95,7 +98,7 @@ function getMarkerHTML(placeInfo) {
     let placeDescriptionHtml = `<p class="info-window-text">${placeInfo.general.description}</p>`;
     let placeImageHtml = `<img class="marker-img" src="${placeInfo.general.image}">`;
 
-	//create info window content
+	// Create info window content
 	var content = `
 <div class="text-center">
     <h4 class='info-window-title'>
@@ -110,7 +113,7 @@ function getMarkerHTML(placeInfo) {
     return content;
 }
 
-// create a marker and infowindow for each of the locations
+// Create a marker and infowindow for each of the locations
 function createMarker(placeInfo) {
 	var marker = new google.maps.Marker({
 		map: map,
@@ -119,34 +122,34 @@ function createMarker(placeInfo) {
 
     content = getMarkerHTML(placeInfo);
     
-	//add marker on click listener to open an infowindow
-	//with each location's name and opening_hours.weekday_text
+	// Add marker on click listener to open an infowindow
+	// with each location's name and opening_hours.weekday_text
 	google.maps.event.addListener(marker, 'click', (function (marker, content, infowindow) {
 		return function () {
 			// To close other infowindows if one is already open
 			if (openInfoWindow)
 				openInfoWindow.close();
 
-			//set the contents of the infowindow
+			// Set the contents of the infowindow
 			infowindow.setContent(content);
 			openInfoWindow = infowindow;
-			//open the infowindow
+			// Open the infowindow
 			infowindow.open(map, marker);
 		};
 	})(marker, content, infowindow));
 }
 
 function loadMap() {
-	//Initialize map
+	// Initialize map
 	map = new google.maps.Map(document.getElementById("map"), {
 		center: initialMapLocation,
 		zoom: 9
 	});
-	//initialize Places Service
+	// Initialize Places Service
 	service = new google.maps.places.PlacesService(map);
 
-	//send a Place Details request per each locations
-	//in our locations[] array above
+	// Send a Place Details request per each location
+	// in our markers array above
 	markers.forEach(function (place) {
 		getPlaceDetails(place);
 	});

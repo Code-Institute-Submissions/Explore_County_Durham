@@ -221,11 +221,6 @@ div#map {
   color: #f8f9fa;
 }
 
-.test {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 @media (max-width: 768px) {
   .form-group {
     font-size: 0.9rem;

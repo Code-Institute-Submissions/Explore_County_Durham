@@ -19,7 +19,7 @@
       </script>
    </head>
    <body>
-      <!--Navigation bar shared with attractions and reviews page-->
+      <!-- Collapsible Navigation Bar code taken from W3Schools https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
       <header>
          <nav class="navbar navbar-expand-sm menu-nav-bar menu-bar-attractions">
             <a class="navbar-brand" href="index.html"><i class="fas fa-home menu-icon-attractions"></i></a> <button class="navbar-toggler" data-target=
@@ -36,7 +36,7 @@
             </div>
          </nav>
       </header>
-      <!--Form designed with help from stack overflow https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap-->
+      <!-- Form designed with help from stack overflow https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap -->
       <section class="form-background">
          <div class="container ">
             <h3 class="text-center form-heading">To be featured on our site, or to leave a review.
@@ -55,11 +55,11 @@
                         <label for="comment">Your site details:</label>
                         <textarea class="form-control" id="comment" required="" rows="3"></textarea>
                      </div>
+
+            <!-- Overlay and spinner created from https://jsfiddle.net/mshaker88/u41rgq3e/ -->
+
                      <div class="text-center">
-
-                     <!--Overlay and spinner created from https://jsfiddle.net/mshaker88/u41rgq3e/ -->
-
-           						<button class="btn btn-warning button" type="submit">Submit</button>
+                     	<button class="btn btn-warning button" type="submit">Submit</button>
 							<div id="overlay" style="display:none;">
 								<div class="spinner"></div>
 								<br/>
@@ -71,7 +71,9 @@
             </div>
          </div>
       </section>
-      <!--Footer featuring social links-->
+
+      <!-- Footer featuring social links -->
+
       <div class="container-fluid footer-contact">
          <div class="row">
             <div class="col-12 d-flex justify-content-center footer-content">
