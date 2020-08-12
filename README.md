@@ -244,9 +244,45 @@ the whole image. To resolve this I resized the images and made them 75% of the c
 
 ### _**Not yet resolved**_
 
-1. When viewing the contact form through the dev tools, if you select Iphone 5 / SE, the bottom of the contact form overlaps the footer. This is the only device
+1. ~~When viewing the contact form through the dev tools, if you select Iphone 5 / SE, the bottom of the contact form overlaps the footer. This is the only device
 that this happens on, I have tried to add padding through a media query and also tried making the footer fixed, but this still does not resolve the issue. As this is 
-only one device I will continue to work on a resolution.
+only one device I will continue to work on a resolution.~~
+<br> **This has now been resolved by adding a media query to reduce the padding-top of the heading at the top of the page t0 1.8rem.**
 
 2. When viewing the contact form on a mobile device. When the keyboard appears to type into the text box,
 some white space appears at the bottom of the screen. This does not happen when viewed in Dev tools and I am still looking at a way to resolve this."
+
+## _**Deployment**_
+
+My website is hosted on GitHub Pages, to access the website please take the following steps.
+
+### _**GitHub Pages**_
+
+1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
+2. Click on the **settings** tab at the top of the page.
+3. Scroll down to the **GitHub Pages** section.
+4. Change the source to **master branch**.
+5. After selecting master branch the page will refresh.
+6. Scroll down to the GitHub Pages section and a green box saying **"your site is published at"** will appear.
+7. Click the link to go to the published website.
+
+ <p align="center">
+  <img width="500" height="200" src="assets/files/github_pages_deployment.jpg">
+</p>
+
+You can view the deployed website here - [Explore County Durham](https://github.com/adamparker75/Explore_County_Durham)
+
+### _**Git Clone**_
+
+1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
+2. Click the green drop down that says clone or download.
+
+ <p align="center">
+  <img width="300" height="50" src="assets/files/github_clone.jpg">
+</p>
+
+3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/Lumley-U16s.git>
+4. Open up your preferred IDE (Integrated Development Environment)
+5. Change the directory to the location you want the clone to be made.
+6. Type **git clone** and then paste the copied URL from step 3.
+7. Press Enter and your local clone will be created.
