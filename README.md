@@ -254,7 +254,7 @@ the whole image. To resolve this I resized the images and made them 75% of the c
 1. ~~When viewing the contact form through the dev tools, if you select Iphone 5 / SE, the bottom of the contact form overlaps the footer. This is the only device
 that this happens on, I have tried to add padding through a media query and also tried making the footer fixed, but this still does not resolve the issue. As this is 
 only one device I will continue to work on a resolution.~~
-<br> **This has now been resolved by adding a media query to reduce the padding-top of the heading at the top of the page t0 1.8rem.**
+<br> **This has now been resolved by adding a media query to reduce the padding-top of the heading at the top of the page to 1.8rem.**
 
 2. When viewing the contact form on a mobile device. When the keyboard appears to type into the text box,
 some white space appears at the bottom of the screen. This does not happen when viewed in Dev tools and I am still looking at a way to resolve this."
@@ -265,7 +265,7 @@ My website is hosted on GitHub Pages, to access the website please take the foll
 
 ### _**GitHub Pages**_
 
-1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
+1. Navigate to my Github repository - <https://github.com/adamparker75/Explore_County_Durham>
 2. Click on the **settings** tab at the top of the page.
 3. Scroll down to the **GitHub Pages** section.
 4. Change the source to **master branch**.
@@ -277,18 +277,18 @@ My website is hosted on GitHub Pages, to access the website please take the foll
   <img width="500" height="200" src="assets/files/github_pages_deployment.jpg">
 </p>
 
-You can view the deployed website here - [Explore County Durham](https://github.com/adamparker75/Explore_County_Durham)
+You can view the deployed website here - [Explore County Durham](https://adamparker75.github.io/Explore_County_Durham/)
 
 ### _**Git Clone**_
 
-1. Navigate to my Github repository - <https://github.com/adamparker75/Lumley-U16s>
+1. Navigate to my Github repository - <https://github.com/adamparker75/Explore_County_Durham>
 2. Click the green drop down that says clone or download.
 
  <p align="center">
   <img width="300" height="50" src="assets/files/github_clone.jpg">
 </p>
 
-3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/Lumley-U16s.git>
+3. To clone with HTTPS copy the URL in the box. <https://github.com/adamparker75/Explore_County_Durham.git>
 4. Open up your preferred IDE (Integrated Development Environment)
 5. Change the directory to the location you want the clone to be made.
 6. Type **git clone** and then paste the copied URL from step 3.
