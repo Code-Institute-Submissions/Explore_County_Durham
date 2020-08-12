@@ -60,7 +60,7 @@ var markers = [{
 	},
 ];
 
-// This code was created with help form Stack Overflow https://stackoverflow.com/questions/63131682/adding-opening-hours-to-google-maps-info-window
+// This code was created with help from Stack Overflow https://stackoverflow.com/questions/63131682/adding-opening-hours-to-google-maps-info-window
 
 window.onload = function () {
 	loadMap();

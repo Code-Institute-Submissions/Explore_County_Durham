@@ -286,3 +286,31 @@ You can view the deployed website here - [Explore County Durham](https://github.
 5. Change the directory to the location you want the clone to be made.
 6. Type **git clone** and then paste the copied URL from step 3.
 7. Press Enter and your local clone will be created.
+
+## _**Credits**_
+
+### _**Content**_
+
+* The code for the navbar on all pages was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
+* The code for the main backgrouns image on the home page was copied from [w3schools](https://www.w3schools.com/css/css3_backgrounds.asp).
+* The code for the jumbotron information section on the home page was taken from [Bootstrap](https://getbootstrap.com/docs/4.4/components/jumbotron/).
+* The contact form was designed with the help from [Stack Overflow](https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap).
+* The JavaScript code for the **Email Js** api, was taken from [The code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) interactive front end module.
+* The JavaScript code for the **Google Maps** api was created with help from [ASP Snippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx//) and [Stack Overflow](https://stackoverflow.com/questions/63131682/adding-opening-hours-to-google-maps-info-window).
+* The code for the overlay and spinner on the contact page were copied from [JS fiddle](https://jsfiddle.net/mshaker88/u41rgq3e/).
+* The colours used on the website were chosen from [Adobe](https://color.adobe.com/create/color-wheel/).
+* The wireframes were created with [Balsamiq](https://balsamiq.com/).
+* The favicon was created on [favicon-generator](https://www.favicon-generator.org/).
+
+### _**Media**_
+
+* All of the images used on the site were taken from [Google Images](https://www.google.com/imghp?hl=EN).
+* All of the reviews on the reviews page were taken from [Trip Advisor](https://www.tripadvisor.co.uk/#).
+* The information about each attraction was taken from [This is Durham](https://www.thisisdurham.com/).
+
+### _**Acknowledgements**_
+
+* To my wife **Claire Parker** for helping me test the website.
+* To my mentor **Reuben Ferrante** for being a great help and providing excellent help and guidance through the process.
+
+
