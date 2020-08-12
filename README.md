@@ -65,6 +65,13 @@ As someone who uses social media, I want to be able to find social media pages r
   <img width="600" height="400" src="assets/files/durham_reviews_wireframe.png">
 </p>
 
+I decided to change the layout of the reviews page as I found it didn't suit the needs of what I was trying to achieve, below is the new wireframe.
+
+<p align="center">
+  <img width="600" height="400" src="assets/files/durham_reviews_revised.png">
+</p>
+
+
 ### _**Contact Page**_
 
 <p align="center">
