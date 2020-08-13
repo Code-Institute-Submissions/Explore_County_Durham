@@ -249,6 +249,8 @@ the font size when viewed on smaller devices.
 4. The images in the info windows on the google map were far too large causing the info window to scroll to the right to view
 the whole image. To resolve this I resized the images and made them 75% of the container, which made them responsive when viewed on smaller devices.
 
+5. The info windows appeared behind the text on the element above when the markers were clicked on larger devices. This was resolved by increasing the map height to 38rem.
+
 ### _**Not yet resolved**_
 
 1. ~~When viewing the contact form through the dev tools, if you select Iphone 5 / SE, the bottom of the contact form overlaps the footer. This is the only device

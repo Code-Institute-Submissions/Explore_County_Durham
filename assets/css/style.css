@@ -176,7 +176,7 @@ h4 {
 }
 
 div#map {
-  height: 40rem;
+  height: 38rem;
 }
 
 @media only screen and (min-width: 1024px), and (max-width: 1060px) {
@@ -206,7 +206,7 @@ div#map {
 .info-window-text {
   font-family: "Lato", sans-serif;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 /* Contact Page */
