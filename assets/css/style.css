@@ -1,325 +1,260 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
 
 /* Sets the root element font size */
-
-html {
-  font-size: 20px;
+ html {
+     font-size: 20px;
 }
-
-/* Main background image, code found on W3 Schools
-https://www.w3schools.com/css/css3_backgrounds.asp */
-
-body,
-html {
-  height: 100%;
+/* Main background image, code found on W3 Schools https://www.w3schools.com/css/css3_backgrounds.asp */
+ body, html {
+     height: 100%;
 }
-
-.background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/durham_cathedral_dark_2-min.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* Background-size cover, scales the background image, covers the whole background and keeps the image in proportion */
-  background-attachment: fixed;
-  background-blend-mode: darken;
+ .background {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/durham_cathedral_dark_2-min.jpg");
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    /* Background-size cover, scales the background image, covers the whole background and keeps the image in proportion */
+     background-attachment: fixed;
+     background-blend-mode: darken;
 }
-
 /* Navigation bar */
-
-.menu-nav-bar .menu-text {
-  font-family: "Alegraya", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  height: 3rem;
-  color: #d1d4c9;
+ .menu-nav-bar .menu-text {
+     font-family: "Alegraya", sans-serif;
+     font-size: 1.4rem;
+     font-weight: 300;
+     height: 3rem;
+     color: #d1d4c9;
 }
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  color: #d1d4c9;
+ .navbar-toggler {
+     padding: 0.25rem 0.75rem;
+     font-size: 1.25rem;
+     background-color: transparent;
+     border: 1px solid transparent;
+     border-radius: 0.25rem;
+     color: #d1d4c9;
 }
-
-.menu-icon {
-  font-size: 2rem;
-  color: #d1d4c9;
+ .menu-icon {
+     font-size: 2rem;
+     color: #d1d4c9;
 }
-
-.menu-icon-attractions {
-  font-size: 2rem;
-  color: #f2b705;
+ .menu-icon-attractions {
+     font-size: 2rem;
+     color: #f2b705;
 }
-
-.menu-bar-attractions {
-  background-color: #023373;
+ .menu-bar-attractions {
+     background-color: #023373;
 }
-
-.menu-text-attractions {
-  font-family: "Alegraya", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 300;
-  height: 3rem;
-  color: #f2b705;
+ .menu-text-attractions {
+     font-family: "Alegraya", sans-serif;
+     font-size: 1.4rem;
+     font-weight: 300;
+     height: 3rem;
+     color: #f2b705;
 }
-
-.navigation-bars {
-  color: #f2b705;
+ .navigation-bars {
+     color: #f2b705;
 }
-
-@media (max-width: 768px) {
-    .menu-text-attractions,.menu-text{
-        font-size: 1.2rem;
+ @media (max-width: 768px) {
+     .menu-text-attractions,.menu-text{
+         font-size: 1.2rem;
     }
 }
-
 /* Styling for all heading elements */
-
-h1,h2,h3 {
-  font-family: "Alegraya", sans-serif;
-  color: #d1d4c9;
+ h1,h2,h3 {
+     font-family: "Alegraya", sans-serif;
+     color: #d1d4c9;
 }
-
-h4 {
-  font-family: "Alegraya", sans-serif;
+ h4 {
+     font-family: "Alegraya", sans-serif;
 }
-
 /* Information section */
-
-.site-info {
-  display: none;
-  background-color: #4950579c;
-  border-radius: 3rem;
+ .site-info {
+     display: none;
+     background-color: #4950579c;
+     border-radius: 3rem;
 }
-
-.info-text {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  color: #f2f2f0;
+ .info-text {
+     font-family: "Lato", sans-serif;
+     font-size: 1.1rem;
+     color: #f2f2f0;
 }
-
-.page-header {
-    padding-bottom: 2rem;
+ .page-header {
+     padding-bottom: 2rem;
 }
-
-@media (max-width: 767px) {
-  .page-header {
-    font-size: 1.6rem;
-    padding-bottom: 1rem;
- }
-  .info-header {
-    font-size: 1.2rem;
-  }
-  .info-sub-header {
-    font-size: 1.2rem;
-  }
-  .info-text {
-    font-size: 0.75rem;
-  }
-  .form-heading {
-    font-size: 1rem;
-  }
+ @media (max-width: 767px) {
+     .page-header {
+         font-size: 1.6rem;
+         padding-bottom: 1rem;
+    }
+     .info-header {
+         font-size: 1.2rem;
+    }
+     .info-sub-header {
+         font-size: 1.2rem;
+    }
+     .info-text {
+         font-size: 0.75rem;
+    }
+     .form-heading {
+         font-size: 1rem;
+    }
 }
-
 /* Footer */
-
-.footer {
-  height: 10%;
-  background-color: black;
-  /* This code places footer at bottom of background image */
-  position: fixed;
-  bottom: 0;
+ .footer {
+     height: 10%;
+     background-color: black;
+    /* This code places footer at bottom of background image */
+     position: fixed;
+     bottom: 0;
 }
-
-.footer-social-links {
-  color: #d1d4c9;
-  font-size: 2rem;
-  letter-spacing: 1rem;
-  padding-left: 0.5rem;
-  padding-top: 0.75rem;
+ .footer-social-links {
+     color: #d1d4c9;
+     font-size: 2rem;
+     letter-spacing: 1rem;
+     padding-left: 0.5rem;
+     padding-top: 0.75rem;
 }
-
-.attractions-links {
-  color: #f2b705;
-  font-size: 1.8rem;
-  letter-spacing: 1rem;
-  padding-left: 0.5rem;
-  padding-top: 0.75rem;
+ .attractions-links {
+     color: #f2b705;
+     font-size: 1.8rem;
+     letter-spacing: 1rem;
+     padding-left: 0.5rem;
+     padding-top: 0.75rem;
 }
-
-@media (max-width: 420px) {
-  .footer-social-links {
-    font-size: 1.2rem;
-    display: inline;
-  }
+ @media (max-width: 420px) {
+     .footer-social-links {
+         font-size: 1.2rem;
+         display: inline;
+    }
 }
-
 /* Explore Page */
-
-.attractions-title {
-  background-color: #f2b705;
+ .attractions-title {
+     background-color: #f2b705;
 }
-
-.attractions-heading {
-  padding: 10px;
-  color: #023373;
+ .attractions-heading {
+     padding: 10px;
+     color: #023373;
 }
-
-.attractions-text {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  color: #023373;
+ .attractions-text {
+     font-family: "Lato", sans-serif;
+     font-size: 1.1rem;
+     color: #023373;
 }
-
-div#map {
-  height: 38rem;
+ div#map {
+     height: 38rem;
 }
-
-@media only screen and (min-width: 1024px), and (max-width: 1060px) {
-div#map {
-    height: 52rem;
-  }
+ @media screen and (min-width: 1024px) and (max-width: 1060px) {
+     div#map {
+         height: 52rem;
+    }
 }
-
-.marker-img {
-  width: 75%;
+ .marker-img {
+     width: 75%;
 }
-
-.footer-attractions,
-.footer-contact {
-  height: 10%;
-  background-color: #023373;
-  bottom: 0;
+ .footer-attractions, .footer-contact {
+     height: 10%;
+     background-color: #023373;
+     bottom: 0;
 }
-
 /* Google Maps Info window */
-
-.info-window-title {
-  font-family: "Alegraya", sans-serif;
-  color: black;
+ .info-window-title {
+     font-family: "Alegraya", sans-serif;
+     color: black;
 }
-
-.info-window-text {
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  font-size: 0.75rem;
+ .info-window-text {
+     font-family: "Lato", sans-serif;
+     font-weight: 500;
+     font-size: 0.75rem;
 }
-
 /* Contact Page */
-
-.form-background {
-  height: 100%;
-  background-image: url("../images/penshaw_monument.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ .form-background {
+     height: 100%;
+     background-image: linear-gradient(#21252978, rgb(0 0 0 / 43%)), url("../images/penshaw_monument.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
-
-.form-group {
-  font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
-  color: #f8f9fa;
+ .form-group {
+     font-family: "Lato", sans-serif;
+     font-size: 1.1rem;
+     color: #f8f9fa;
 }
-
-.form-heading {
-  padding-top: 5rem;
-  padding-bottom: 1rem;
-  }
-
-@media (max-width: 767px) {
-  .form-group {
-    font-size: 0.85rem;
-  }
+ .form-heading {
+     padding-top: 5rem;
+     padding-bottom: 1rem;
 }
-
-@media (min-width: 768px) {
-  .form-heading {
-    padding-top: 10rem;
-  }
+ @media (max-width: 767px) {
+     .form-group {
+         font-size: 0.85rem;
+    }
 }
-
-@media (max-width: 400px) {
-  .form-heading {
-    padding-top: 2rem;
-    font-size: 1rem;
-  }
+ @media (min-width: 768px) {
+     .form-heading {
+         padding-top: 10rem;
+    }
 }
-
+ @media (max-width: 400px) {
+     .form-heading {
+         padding-top: 2rem;
+         font-size: 1rem;
+    }
+}
 /* Reviews Page */
-
-.reviews_row {
-  background-color: #f2b705;
+ .reviews_row {
+     background-color: #f2b705;
 }
-
-.reviews_header {
-  color: #023373;
-  padding-top: 1rem;
-  font-size: 1.2rem;
+ .reviews_header {
+     color: #023373;
+     padding-top: 1rem;
+     font-size: 1.2rem;
 }
-
-.reviews_text {
-  font-family: "Lato", sans-serif;
-  color: #023373;
-  font-size: 0.9rem;
-  padding-top: 1rem;
+ .reviews_text {
+     font-family: "Lato", sans-serif;
+     color: #023373;
+     font-size: 0.9rem;
+     padding-top: 1rem;
 }
-
-.img-thumbnail {
-  background-color: #f2b705;
-  border: 1px solid #f2b705;
-  border-radius: 1.5rem;
+ .img-thumbnail {
+     background-color: #f2b705;
+     border: 1px solid #f2b705;
+     border-radius: 1.5rem;
 }
-
-.review_toggle_1,
-.review_toggle_2,
-.review_toggle_3,
-.review_toggle_4,
-.review_toggle_5,
-.review_toggle_6 {
-  display: none;
+ .review_toggle_1, .review_toggle_2, .review_toggle_3, .review_toggle_4, .review_toggle_5, .review_toggle_6 {
+     display: none;
 }
-
-
 /* Overlay spinner for contact page created from https://jsfiddle.net/mshaker88/u41rgq3e/ */
-
-#overlay {
-  background: #023373;
-  color: #f2b705;
-  position: fixed;
-  display: none;
-  height: 100%;
-  width: 100%;
-  z-index: 5000;
-  top: 0;
-  left: 0;
-  float: left;
-  text-align: center;
-  padding-top: 25%;
-  opacity: .80;
+ #overlay {
+     background: #023373;
+     color: #f2b705;
+     position: fixed;
+     display: none;
+     height: 100%;
+     width: 100%;
+     z-index: 5000;
+     top: 0;
+     left: 0;
+     float: left;
+     text-align: center;
+     padding-top: 25%;
+     opacity: .80;
 }
-
-
-
-.spinner {
-    margin: 0 auto;
-    height: 64px;
-    width: 64px;
-    animation: rotate 0.8s infinite linear;
-    border: 5px solid #f2b705;
-    border-right-color: transparent;
-    border-radius: 50%;
+ .spinner {
+     margin: 0 auto;
+     height: 64px;
+     width: 64px;
+     animation: rotate 0.8s infinite linear;
+     border: 5px solid #f2b705;
+     border-right-color: transparent;
+     border-radius: 50%;
 }
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
+ @keyframes rotate {
+     0% {
+         transform: rotate(0deg);
     }
-    100% {
-        transform: rotate(360deg);
+     100% {
+         transform: rotate(360deg);
     }
 }
-
+ 
 

@@ -3,7 +3,7 @@ $(document).ready(function () {
     // There are 6 images in the reviews page, the class is : reviews_image_X
     for (var i=1; i <= 6; i++){
         mouseOverEffect(i);
-    };
+    }
 
 // Elements removed from home page when the learn more button is clicked    
     
