@@ -176,7 +176,13 @@ h4 {
 }
 
 div#map {
-  height: 36.25rem;
+  height: 40rem;
+}
+
+@media only screen and (min-width: 1024px), and (max-width: 1060px) {
+div#map {
+    height: 52rem;
+  }
 }
 
 .marker-img {
