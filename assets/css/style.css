@@ -106,7 +106,7 @@ h4 {
     padding-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .page-header {
     font-size: 1.6rem;
     padding-bottom: 1rem;
@@ -228,13 +228,11 @@ div#map {
 .form-heading {
   padding-top: 5rem;
   padding-bottom: 1rem;
-  color: #f8f9fa;
-  font-size: 1.5rem;
-}
+  }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .form-group {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 }
 
@@ -244,9 +242,10 @@ div#map {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .form-heading {
     padding-top: 2rem;
+    font-size: 1rem;
   }
 }
 
