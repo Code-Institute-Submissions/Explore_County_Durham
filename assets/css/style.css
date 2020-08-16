@@ -122,6 +122,7 @@
      padding-left: 0.5rem;
      padding-top: 0.75rem;
 }
+/* Reduces size of social media links */
  @media (max-width: 420px) {
      .footer-social-links {
          font-size: 1.2rem;
@@ -167,7 +168,7 @@
      font-weight: 500;
      font-size: 0.75rem;
 }
-/*Sets the height of the infow window <div> on larger screens*/
+/* Sets the height of the infow window <div> on larger screens */
 @media screen and (min-width: 1024px) {
 .info-window {
   height: 500px;

@@ -2,9 +2,9 @@
 
 This website was designed to allow people to explore the wonderful area that I live in. The home page features
 a little bit of information about County Durham and an option for users to click a button which will take them to an interactive map. 
-The map was designed with markers added of a number of attractions around the county. When the marker is clicked an ino window appears
+The map was designed with markers added of a number of attractions around the county. When the marker is clicked an info window appears
 giving the user further information about the attraction. <br>
-The site also features a contact form for people to leave reviews about the places they have visitied and also request for their attraction to be
+The site also features a contact form for people to leave reviews about the places they have visitied or request for their attraction to be
 featured on the website. There is also a reviews page to allow users to read about what people think of the attractions and help them choose where to visit.
 
 The deployed website can be viewed here  - [Explore County Durham](https://adamparker75.github.io/Explore_County_Durham/).
@@ -14,7 +14,7 @@ The deployed website can be viewed here  - [Explore County Durham](https://adamp
 
 I created the website with a main landing page and an image of the iconic Durham cathedral. I wanted this page to 
 be quite simple and let the image be the main feature. <br>
-I designed the site with a mobile first approach, I wanted it to easy to navigate and created a similar structure to each page by replicating 
+I designed the site with a mobile first approach, I wanted it to be easy to navigate and created a similar structure to each page by replicating 
 the header and footer across all pages. <br>
 The colours for the site were chosen, as blue and yellow is the colour of the flag for County Durham.
 
@@ -94,7 +94,7 @@ I decided to change the layout of the reviews page as I found it didn't suit the
 
 * **Navigation Bar** - The navigation bar is easy to use and consistent across the site, it is designed responsively and collapses down on smaller devices.
 * **Footer Links** - Allows the user to link to various social media pages when clicked.
-* **Jumbotron** - The jumbotron pops up after users have clicked learn more on the homepage. It gives users information about the County and it's attractions
+* **Jumbotron** - The jumbotron pops up after users have clicked "learn more" on the homepage. It gives users information about the county and it's attractions
 and encourages the user to explore the interactive map.
 * **Interactive Map** - A map with clickable markers allows users to explore the attractions on offer in the county.
 * **Marker Info Window** - An info window appears above each marker when clicked, this gives users more information about each attraction.
@@ -104,13 +104,13 @@ and encourages the user to explore the interactive map.
 ### _**Features left to implement**_
 
 * To be able to search for an attraction and read the reviews.
-* Add a filter option onto the map to include for example family friendly or disabled access.
+* Add a filter option onto the map to include family friendly or disabled access.
 * Add hotels or restaurants close to the attractions. 
 * Widen the search area to include the whole of the North East, not just County Durham.
 
 ## _**Technologies Used**_
 
-[HTML](https://en.wikipedia.org/wiki/HTML5) - HTML provides the content and structure for my website
+[HTML](https://en.wikipedia.org/wiki/HTML5) - HTML provides the content and structure for my website.
 
 [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - CSS provides the styling.
 
@@ -126,7 +126,7 @@ and encourages the user to explore the interactive map.
 
 [Google Maps Api](https://developers.google.com/maps/documentation/javascript/overview) - Google maps Api was used to create the interactive map.
 
-[Email Js](https://www.emailjs.com/) - Email JS was used to send an email when the contact form has been submitted.
+[Email JS](https://www.emailjs.com/) - Email JS was used to send an email when the contact form has been submitted.
 
 
 ## _**Testing**_
@@ -175,7 +175,7 @@ vi.   Is there enough information about the attraction for someone to know if it
 
 i.    Click on the reviews link in the navigation bar. <br>
 ii.   Does the reviews page open? <br>
-iii.  Is the user able to distinguish between the different attractions> <br>
+iii.  Is the user able to distinguish between the different attractions? <br>
 iv.   Does an image of each attraction appear? <br>
 v.    Is the text below the image clear and easy to read? <br>
 vi.   If I hover over an image does another review appear and the previous review disappear? 
@@ -202,7 +202,7 @@ i.    Are the social media links visible on the home page? <br>
 ii.   Click on the explore, reviews and contact pages, are the social media links visible on both of these pages? <br>
 iii.  On each of the pages, home page, explore, reviews and contact page, click the facebook social media link, does facebook open? <br>
 iv.   On each of the pages, home page, explore, reviews and contact page, click the twitter social media link, does twitter open? <br>
-v.    On each of the pages, home page, explore, reviews and contact page, click the istagram social media link, does instagram open? <br>
+v.    On each of the pages, home page, explore, reviews and contact page, click the instagram social media link, does instagram open? <br>
 vi.   On each of the pages, home page, explore, reviews and contact page, click the pinterest social media link, does pinterest open? <br>
 
 **All tests performed and no errors found.**
@@ -243,13 +243,14 @@ a media query to reduce the font size down at a certain screen size.
 size of the image. I resolved this by using an [image compressing tool](https://compressimage.toolur.com/) to reduce the size of 
 the image and increase the load time.
 
-3. The text on the navigation bar when collapsed, over lapped some of the content on the pages. I created a media query to reduce
+3. On smaller devices when the navigation bar is expanded, the word "contact" overlapped the page header. I created a media query to reduce
 the font size when viewed on smaller devices.
 
 4. The images in the info windows on the google map were far too large causing the info window to scroll to the right to view
 the whole image. To resolve this I resized the images and made them 75% of the container, which made them responsive when viewed on smaller devices.
 
-5. The info windows appeared behind the text on the element above when the markers were clicked on larger devices. This was resolved by increasing the map height to 38rem.
+5. The info windows appeared behind the text on the element above when the markers were clicked on larger devices. This was resolved by increasing the map height to 38rem, and setting a height of 500px and a 
+width of 400px to the info window container.
 
 ### _**Not yet resolved**_
 
@@ -258,8 +259,8 @@ that this happens on, I have tried to add padding through a media query and also
 only one device I will continue to work on a resolution.~~
 <br> **This has now been resolved by adding a media query to reduce the padding-top of the heading at the top of the page to 1.8rem.**
 
-2. When viewing the contact form on a mobile device. When the keyboard appears to type into the text box,
-some white space appears at the bottom of the screen. This does not happen when viewed in Dev tools and I am still looking at a way to resolve this."
+2. When viewing the contact form on a mobile device, when the keyboard is displayed for text entry some white space appears at the bottom of the screen. This doesn't happen in Dev tools and is browser specific,
+I have only seen this in Google chrome. I am currently looking for a resolution to this.
 
 ## _**Deployment**_
 
@@ -301,10 +302,10 @@ You can view the deployed website here - [Explore County Durham](https://adampar
 ### _**Content**_
 
 * The code for the navbar on all pages was copied from [w3schools](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp).
-* The code for the main backgrouns image on the home page was copied from [w3schools](https://www.w3schools.com/css/css3_backgrounds.asp).
+* The code for the main background image on the home page was copied from [w3schools](https://www.w3schools.com/css/css3_backgrounds.asp).
 * The code for the jumbotron information section on the home page was taken from [Bootstrap](https://getbootstrap.com/docs/4.4/components/jumbotron/).
 * The contact form was designed with the help from [Stack Overflow](https://stackoverflow.com/questions/31294236/responsive-form-on-top-of-responsive-image-bootstrap).
-* The JavaScript code for the **Email Js** api, was taken from [The code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) interactive front end module.
+* The JavaScript code for the **Email JS** api, was taken from [The code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper) interactive front end module.
 * The JavaScript code for the **Google Maps** api was created with help from [ASP Snippets](https://www.aspsnippets.com/Articles/Google-Maps-API-V3-Add-multiple-markers-with-InfoWindow-to-Google-Map.aspx//) and [Stack Overflow](https://stackoverflow.com/questions/63131682/adding-opening-hours-to-google-maps-info-window).
 * The code for the overlay and spinner on the contact page were copied from [JS fiddle](https://jsfiddle.net/mshaker88/u41rgq3e/).
 * The colours used on the website were chosen from [Adobe](https://color.adobe.com/create/color-wheel/).
