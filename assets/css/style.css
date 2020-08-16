@@ -167,6 +167,13 @@
      font-weight: 500;
      font-size: 0.75rem;
 }
+/*Sets the height of the infow window <div> on larger screens*/
+@media screen and (min-width: 1024px) {
+.info-window {
+  height: 500px;
+  width: 400px;
+}
+}
 /* Contact Page */
  .form-background {
      height: 100%;
