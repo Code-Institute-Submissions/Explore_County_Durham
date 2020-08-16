@@ -170,7 +170,7 @@
 }
 /* Sets the height of the infow window <div> on larger screens */
 @media screen and (min-width: 1024px) {
-.info-window {
+.map-info-window {
   height: 500px;
   width: 400px;
 }

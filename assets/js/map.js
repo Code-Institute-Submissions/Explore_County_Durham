@@ -99,7 +99,7 @@ function getMarkerHTML(placeInfo) {
 
     // Create info window content
     var content = `
-<div class="text-center info-window">
+<div class="text-center map-info-window">
     <h4 class='info-window-title'>
     ${placeInfo.google.name}
     </h4>
